@@ -1,0 +1,129 @@
+import {shuffle, makeChoices, summarize, localDay} from './core.js';
+import {LearningStore} from './store.js';
+import {LibraryBrowser} from './library.js';
+import {sortWords} from './catalog.js';
+const $=(s,root=document)=>root.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const icon=name=>`<svg aria-hidden="true"><use href="#i-${name}"/></svg>`;
+let library,baseWords=[],catalogSignature='';
+let words=[],byId,store,view='home',quiz=null,match=null,practiceMode='choice',listPage=1,listSearch='',letter='',errorFilter='active',toastTimer;
+const settings={scope:'all',letter:'',size:10,order:'random'};
+function toast(t){$('#toast').textContent=t;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast')?.classList.remove('show'),3500);}
+function download(name,data){const u=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);}
+function exportBackup(){download(`english-words-${localDay(new Date().toISOString())}.json`,store.backup());}
+function intro(eyebrow,title,sub){return `<div class="intro"><div><span class="eyebrow">${eyebrow}</span><h1>${title}</h1><p class="muted">${sub}</p></div><span class="date">${new Intl.DateTimeFormat('zh-CN',{month:'long',day:'numeric',weekday:'long'}).format(new Date())}</span></div>`;}
+function stats(){return summarize(store.events);}
+function currentPool(){let a=sortWords(words);const s=stats();if(settings.scope==='errors')a=a.filter(w=>s.map.get(w.id)?.active);if(settings.scope==='unseen')a=a.filter(w=>!s.map.get(w.id)?.attempts);if(settings.letter)a=a.filter(w=>w.word.toUpperCase().startsWith(settings.letter));if(settings.order==='frequency')a=[...a].sort((a,b)=>(b.frequency||0)-(a.frequency||0)||a.word.localeCompare(b.word));else if(settings.order==='random')a=shuffle(a);return a;}
+function refreshHeader(){
+  const s=stats();$('#nav-errors').textContent=[...s.map].filter(([id,x])=>x.active&&!store.catalog.hidden.has(id)).length;
+  const button=$('#sync-status');$('span:last-child',button).textContent=store.status;button.title=store.lastError?`${store.status}：${store.lastError}`:'点击同步或查看账号';button.classList.toggle('warning',/失败|离线|不足|等待/.test(store.status));
+  $('#account-button span').textContent=store.user?'我的账号':'登录同步';
+}
+function navigate(){
+ const next=location.hash.slice(1)||'home';view=['home','choice','match','mistakes','library'].includes(next)?next:'home';
+ document.querySelectorAll('[data-nav]').forEach(a=>{const active=a.dataset.nav===view;a.classList.toggle('active',active);active?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current');});
+ $('#page-label').textContent=({home:'学习首页',choice:'释义四选一',match:'单词连连看',mistakes:'我的错题本',library:'词库浏览'})[view];
+ if(view==='choice'&&!quiz)startQuiz(false);if(view==='match'&&!match)startMatch(false);render();window.scrollTo({top:0,behavior:'instant'});
+}
+function render(){
+ const main=$('#main');if(view==='library')main.innerHTML=library.render();else if(view==='home')main.innerHTML=renderHome();else if(view==='choice')main.innerHTML=renderQuiz();else if(view==='match')main.innerHTML=renderMatch();else main.innerHTML=renderList();bindView();if(view==='match')requestAnimationFrame(drawLines);
+}
+function renderHome(){
+ const s=stats(),errors=[...s.map].filter(([id,x])=>x.active&&!store.catalog.hidden.has(id)).length;const today=store.events.filter(e=>['choice','match'].includes(e.kind)&&localDay(e.created_at)===localDay(new Date().toISOString())).length;
+ const stat=(label,value,unit,note,name)=>`<div class="stat"><div class="stat-label">${label}${icon(name)}</div><div class="stat-value">${value}<small>${unit}</small></div><div class="stat-note">${note}</div></div>`;
+ return `${intro('A LITTLE PROGRESS, EVERY DAY','今天，也和单词见一面。','从你的专属词库开始，让每个生词慢慢变熟悉。')}
+ <section class="hero"><div class="hero-copy"><span class="eyebrow">GROW YOUR VOCABULARY</span><h2>把生词，<br>变成你的拿手词。</h2><p>不急着记住所有。<br>每次练习一点，记忆就深一点。</p></div><div class="hero-art" aria-hidden="true"><div class="art-orbit"></div><div class="art-card back"></div><div class="art-card"><small>WORD / 001</small><strong>grow</strong><p>v. 成长；逐渐成为</p></div><span class="art-star">✧</span></div></section>
+ <section class="stats" aria-label="学习概况">${stat('专属词库',words.length,'词','完整保留 PDF 释义','book')}${stat('累计练过',s.map.size,'词','让相遇变成记忆','cards')}${stat('待复习错词',errors,'词','每个薄弱点都值得照顾','link')}${stat('今日练习',today,'次',s.total?`累计正确率 ${s.accuracy}%`:'今天，从一题开始','check')}</section>
+ <div class="section-heading"><h2>选一种方式，开始记忆</h2><small>LEARN YOUR WAY</small></div><section class="modes"><a href="#choice" class="mode-card"><div class="mode-top"><span class="mode-icon">${icon('cards')}</span><span class="tag">专注理解</span></div><h3>释义四选一</h3><p>看到一个单词，<br>从四个释义中找到它的意思。</p><div class="mode-footer">开始选择练习 ${icon('arrow')}</div></a><a href="#match" class="mode-card"><div class="mode-top"><span class="mode-icon">${icon('link')}</span><span class="tag">联想记忆</span></div><h3>单词连连看</h3><p>连接单词与释义，<br>在一来一往中建立记忆联结。</p><div class="mode-footer">开始配对练习 ${icon('arrow')}</div></a></section>
+ <div class="bottom-note">${icon('spark')}<span>${store.user?'登录账号的练习记录会自动同步；离线时先保存在本机。':'先练起来，记录会保存在本机。登录后可在账号中导入访客记录，开启多设备同步。'}</span></div>`;
+}
+function toolbar(mode){return `<section class="toolbar" aria-label="练习设置"><div class="field"><label for="scope">练习范围</label><select id="scope"><option value="all" ${settings.scope==='all'?'selected':''}>全部词库</option><option value="errors" ${settings.scope==='errors'?'selected':''}>仅待复习错词</option><option value="unseen" ${settings.scope==='unseen'?'selected':''}>只练未学词</option></select></div><div class="field"><label for="practice-letter">首字母</label><select id="practice-letter"><option value="">全部 A–Z</option>${'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map(c=>`<option ${settings.letter===c?'selected':''}>${c}</option>`).join('')}</select></div>${mode==='choice'?`<div class="field"><label for="size">每轮题数</label><select id="size">${[10,20,30,50].map(n=>`<option ${settings.size===n?'selected':''}>${n}</option>`).join('')}</select></div>`:''}<div class="field"><label for="order">出题顺序</label><select id="order"><option value="random" ${settings.order==='random'?'selected':''}>随机</option><option value="az" ${settings.order==='az'?'selected':''}>A–Z 顺序</option><option value="frequency" ${settings.order==='frequency'?'selected':''}>高频优先</option></select></div><button class="btn secondary" id="restart">${mode==='choice'?'开始新一轮':'换一组词'}</button></section>`;}
+function startQuiz(draw=true,ids=null){
+ const pool=ids?shuffle(words.filter(w=>ids.includes(w.id))):currentPool();const queue=new Set(words.map(w=>w.meaning)).size>=4?pool.slice(0,settings.size):[];quiz={queue,index:0,correct:0,errors:[],selected:null,options:queue.length?makeChoices(queue[0],words):[],done:false};practiceMode='choice';if(draw)render();
+}
+function renderQuiz(){
+ const head=intro('RECOGNIZE & REMEMBER','释义四选一','看清单词，选出与它对应的完整释义。');const tools=toolbar('choice');
+ if(!quiz.queue.length)return head+tools+emptyPractice();
+ if(quiz.done)return head+tools+renderSummary('choice');
+ const w=quiz.queue[quiz.index],answered=quiz.selected!==null;return `${head}${tools}<section class="panel practice-card"><div class="round-header"><span>第 ${quiz.index+1} / ${quiz.queue.length} 题</span><div class="progress"><span style="width:${quiz.index/quiz.queue.length*100}%"></span></div><span>答对 ${quiz.correct}</span></div><div class="question"><span class="eyebrow">CHOOSE THE RIGHT MEANING</span><div class="word-line"><h2>${esc(w.word)}</h2><button class="icon-button" data-speak="${esc(w.id)}" aria-label="朗读单词">${icon('sound')}</button></div><span class="question-meta">${w.frequency!==null?`历年真题出现 ${w.frequency} 次　·　`:''}${w.custom?'自己添加的单词':`原 PDF 第 ${w.page} 页`}</span></div><div class="options">${quiz.options.map((o,i)=>`<button class="option ${answered?(o.id===w.id?'correct':o.id===quiz.selected?'wrong':''):''}" data-answer="${esc(o.id)}" ${answered?'disabled':''}><span class="option-letter">${'ABCD'[i]}</span><span>${esc(o.meaning)}</span></button>`).join('')}</div>${answered?`<div class="feedback ${quiz.selected===w.id?'':'error'}" role="status"><strong>${quiz.selected===w.id?'答对了，记忆又深了一点。':'已加入错题本，再看一眼它的意思。'}</strong>${esc(w.word)}：${esc(w.meaning)}${quiz.selected!==w.id?`<br>你选的释义属于 <b>${esc(byId.get(quiz.selected)?.word)}</b>。`:''}</div>`:''}<div class="question-actions"><span class="keyboard-hint">按 1–4 选择 · Enter 下一题</span><button id="next-question" class="btn" ${answered?'':'disabled'}>${quiz.index+1===quiz.queue.length?'查看本轮结果':'下一个单词'} ${icon('arrow')}</button></div></section>`;
+}
+function answerQuiz(id){if(!quiz||quiz.done||quiz.selected!==null)return;const w=quiz.queue[quiz.index];quiz.selected=id;const correct=w.id===id;if(correct)quiz.correct++;else quiz.errors.push(w.id);store.add(w.id,'choice',correct,byId.get(id).meaning);render();}
+function nextQuestion(){if(quiz.selected===null)return;quiz.index++;if(quiz.index>=quiz.queue.length)quiz.done=true;else{quiz.selected=null;quiz.options=makeChoices(quiz.queue[quiz.index],words);}render();}
+function emptyPractice(){return `<div class="panel empty"><span class="summary-icon">${icon('check')}</span><h3>${new Set(words.map(w=>w.meaning)).size<4&&view==='choice'?'四选一需要至少 4 条不同释义':'这个范围暂时没有单词'}</h3><p>可以切换到“全部词库”，或新增、恢复一些单词。<br>如果错题已复习完，就去认识一些新词吧。</p><button id="reset-pool" class="btn soft">练全部词库</button></div>`;}
+function startMatch(draw=true,ids=null){
+ const pool=ids?shuffle(words.filter(w=>ids.includes(w.id))):currentPool();const used=new Set();const pairs=[];for(const w of pool){if(!used.has(w.meaning)){pairs.push(w);used.add(w.meaning);}if(pairs.length===5)break;}
+ match={pairs,left:shuffle(pairs),right:shuffle(pairs),selectedLeft:null,selectedRight:null,matched:[],attempts:0,correct:0,errors:[],message:'点一个单词，再点对应释义；也可以先选释义。',busy:false,done:false};practiceMode='match';if(draw)render();
+}
+function renderMatch(){
+ const head=intro('MAKE THE CONNECTION','单词释义连连看','让英文与中文相遇，完成一组记忆联结。');const tools=toolbar('match');if(!match.pairs.length)return head+tools+emptyPractice();if(match.done)return head+tools+renderSummary('match');
+ const tile=(w,side)=>`<button class="match-tile ${match.matched.includes(w.id)?'matched':match[side==='left'?'selectedLeft':'selectedRight']===w.id?'selected':''}" data-side="${side}" data-match="${esc(w.id)}" ${match.matched.includes(w.id)||match.busy?'disabled':''}>${side==='left'?esc(w.word):esc(w.meaning)}${match.matched.includes(w.id)?' ✓':''}</button>`;
+ return `${head}${tools}<section class="panel"><div class="round-header"><span>已配对 ${match.matched.length} / ${match.pairs.length}</span><div class="progress"><span style="width:${match.matched.length/match.pairs.length*100}%"></span></div><span>尝试 ${match.attempts} 次</span></div><div class="spread tiny"><span>ENGLISH WORDS</span><span>中文释义</span></div><div class="match-board" style="--pairs:${match.pairs.length}"><svg class="board-lines" aria-hidden="true"></svg><div class="match-column words">${match.left.map(w=>tile(w,'left')).join('')}</div><div class="match-column meanings">${match.right.map(w=>tile(w,'right')).join('')}</div></div><p class="match-status" role="status">${esc(match.message)}</p></section>`;
+}
+function selectMatch(side,id){
+ if(!match||match.busy||match.done||match.matched.includes(id))return;const prop=side==='left'?'selectedLeft':'selectedRight';match[prop]=match[prop]===id?null:id;
+ if(!match.selectedLeft||!match.selectedRight){render();return;}
+ const l=match.selectedLeft,r=match.selectedRight;const ok=l===r;match.attempts++;
+ if(ok){match.correct++;match.matched.push(l);match.message=`配对成功：${byId.get(l).word}`;store.add(l,'match',true,byId.get(r).meaning);match.selectedLeft=null;match.selectedRight=null;if(match.matched.length===match.pairs.length){match.done=true;render();return;}render();}
+ else{match.errors.push(l);match.busy=true;match.message='这两个还没对上，已把选中的英文单词加入错题本，再试一次。';store.add(l,'match',false,byId.get(r).meaning);render();const m=match;document.querySelectorAll('.match-tile.selected').forEach(e=>e.classList.add('wrong-flash'));setTimeout(()=>{m.busy=false;m.selectedLeft=null;m.selectedRight=null;if(match===m&&view==='match')render();},700);}
+}
+function drawLines(){
+ const board=$('.match-board');if(!board||!match)return;const box=board.getBoundingClientRect();const svg=$('.board-lines');svg.setAttribute('viewBox',`0 0 ${box.width} ${box.height}`);svg.innerHTML='';
+ for(const id of match.matched){const buttons=[...board.querySelectorAll('.match-tile')].filter(b=>b.dataset.match===id);if(buttons.length!==2)continue;const a=buttons[0].getBoundingClientRect(),b=buttons[1].getBoundingClientRect();const line=document.createElementNS('http://www.w3.org/2000/svg','line');Object.entries({x1:a.right-box.left,y1:a.top+a.height/2-box.top,x2:b.left-box.left,y2:b.top+b.height/2-box.top}).forEach(([k,v])=>line.setAttribute(k,v));svg.append(line);}
+}
+function renderSummary(mode){
+ const q=mode==='choice'?quiz:match;const total=mode==='choice'?q.queue.length:q.attempts;const errors=[...new Set(q.errors)];
+ return `<section class="panel practice-card round-summary"><div class="summary-icon">${icon('check')}</div><span class="eyebrow" style="margin-top:23px">A LITTLE BETTER THAN BEFORE</span><h2>又完成了一小步，真不错。</h2><p class="muted">${errors.length?`${errors.length} 个错词已记进错题本，下次再见一面。`:'本轮没有新增错词，继续保持这份手感。'}</p><div class="summary-stats"><div><strong>${total}</strong><span>${mode==='choice'?'完成题数':'配对尝试'}</span></div><div><strong>${Math.round(q.correct/total*100)}<small>%</small></strong><span>${mode==='choice'?'本轮正确率':'配对正确率'}</span></div><div><strong>${errors.length}</strong><span>需要再看一眼</span></div></div><div class="button-row"><button id="another-round" class="btn">再来一轮 ${icon('arrow')}</button>${errors.length?'<button id="redo-errors" class="btn secondary">重练本轮错词</button>':''}<a class="btn secondary" href="#mistakes">查看错题本</a></div></section>`;
+}
+function listItems(){const s=stats();let a=words;if(view==='mistakes')a=a.filter(w=>errorFilter==='active'?s.map.get(w.id)?.active:errorFilter==='mastered'?s.map.get(w.id)?.mastered:(s.map.get(w.id)?.errors||0)>0);if(letter)a=a.filter(w=>w.word.toUpperCase().startsWith(letter));const term=listSearch.trim().toLowerCase();if(term)a=a.filter(w=>w.word.toLowerCase().includes(term)||w.meaning.toLowerCase().includes(term));return a;}
+function renderList(){
+ const mistakes=view==='mistakes';const s=stats();const items=listItems();const pages=Math.max(1,Math.ceil(items.length/20));listPage=Math.min(listPage,pages);const page=items.slice((listPage-1)*20,listPage*20);
+ const head=mistakes?intro('REVISIT & REMEMBER','错过的，再认识一遍。','错误不是终点。把薄弱的词，再慢慢记牢。'):intro('YOUR PERSONAL COLLECTION','760 个词，慢慢认识。','来自你的 PDF，按 A–Z 严格排序；完整保留原词性与释义。');
+ return `${head}${mistakes?`<div class="notice">${store.user?'当前账号的错题会自动同步到云端。':'当前显示访客错题，只保存在本机。登录后可在账号中导入。'} 标为“已掌握”后将移出待复习列表，再次答错会自动回归。</div>`:''}<div class="list-toolbar"><input id="search" aria-label="搜索单词或中文释义" placeholder="搜索单词或中文释义…" value="${esc(listSearch)}">${mistakes?`<div class="filter-tabs">${[['active','待复习'],['mastered','已掌握'],['all','全部错词']].map(([id,t])=>`<button data-error-filter="${id}" class="${errorFilter===id?'active':''}">${t}</button>`).join('')}</div><button id="practice-errors" class="btn" ${!items.length?'disabled':''}>重练这些词 ${icon('arrow')}</button>`:'<button id="export-backup" class="btn secondary">导出学习记录</button>'}</div><div class="alphabet"><button data-letter="" class="${!letter?'active':''}">全部</button>${'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map(c=>`<button data-letter="${c}" class="${letter===c?'active':''}">${c}</button>`).join('')}</div>${page.length?`<div class="table-wrap"><table class="word-table"><thead><tr><th>单词 / 短语</th><th>完整释义</th><th class="source-col">${mistakes?'错误次数':'真题词频'}</th><th>${mistakes?'复习状态':'原 PDF'}</th></tr></thead><tbody>${page.map(w=>{const state=s.map.get(w.id);return `<tr><td>${esc(w.word)}<div><button class="icon-button" data-speak="${esc(w.id)}" aria-label="朗读 ${esc(w.word)}">${icon('sound')}</button></div></td><td class="definition">${esc(w.meaning)}</td><td class="source-col">${mistakes?`<span class="error-count">错 ${state.errors} 次</span>`:w.frequency===null?'未标记':`${w.frequency} 次`}</td><td>${mistakes?`<button class="btn small ${state.active?'soft':'secondary'}" data-mastery="${esc(w.id)}" data-active="${state.active}">${state.active?'标为已掌握':'重新复习'}</button>`:`<span class="word-meta">第 ${w.page} 页</span>`}</td></tr>`;}).join('')}</tbody></table></div>`:`<div class="panel empty"><span class="summary-icon">${icon('book')}</span><h3>${mistakes?'这里还没有对应的错词':'没有找到匹配的词'}</h3><p>${mistakes?'先去练习，答错的词会自动收进来。':'换个关键词或首字母再试试。'}</p><a class="btn soft" href="#choice">开始四选一</a></div>`}<div class="pager"><span>共 ${items.length} 词 · 第 ${listPage} / ${pages} 页</span><div class="button-row"><button id="prev-page" class="btn small secondary" ${listPage<=1?'disabled':''}>上一页</button><button id="next-page" class="btn small secondary" ${listPage>=pages?'disabled':''}>下一页</button></div></div>`;
+}
+function bindView(){
+ if(view==='library'){library.bind();return;}
+ document.querySelectorAll('[data-speak]').forEach(b=>b.onclick=()=>speak(byId.get(b.dataset.speak).word));
+ if(view==='home')return;
+ if(['choice','match'].includes(view)){
+  $('#scope').onchange=e=>{settings.scope=e.target.value;view==='choice'?startQuiz():startMatch();};$('#practice-letter').onchange=e=>{settings.letter=e.target.value;view==='choice'?startQuiz():startMatch();};$('#order').onchange=e=>{settings.order=e.target.value;view==='choice'?startQuiz():startMatch();};if($('#size'))$('#size').onchange=e=>{settings.size=+e.target.value;startQuiz();};
+  $('#restart').onclick=()=>view==='choice'?startQuiz():startMatch();if($('#reset-pool'))$('#reset-pool').onclick=()=>{settings.scope='all';settings.letter='';view==='choice'?startQuiz():startMatch();};
+  document.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>answerQuiz(b.dataset.answer));if($('#next-question'))$('#next-question').onclick=nextQuestion;
+  document.querySelectorAll('[data-match]').forEach(b=>b.onclick=()=>selectMatch(b.dataset.side,b.dataset.match));
+  if($('#another-round'))$('#another-round').onclick=()=>view==='choice'?startQuiz():startMatch();if($('#redo-errors'))$('#redo-errors').onclick=()=>{const ids=[...new Set((view==='choice'?quiz:match).errors)];view==='choice'?startQuiz(true,ids):startMatch(true,ids);};return;
+ }
+ const input=$('#search');input.oninput=e=>{const pos=e.target.selectionStart;listSearch=e.target.value;listPage=1;render();$('#search').focus();$('#search').setSelectionRange(pos,pos);};
+ document.querySelectorAll('[data-letter]').forEach(b=>b.onclick=()=>{letter=b.dataset.letter;listPage=1;render();});document.querySelectorAll('[data-error-filter]').forEach(b=>b.onclick=()=>{errorFilter=b.dataset.errorFilter;listPage=1;render();});
+ document.querySelectorAll('[data-mastery]').forEach(b=>b.onclick=()=>{store.add(b.dataset.mastery,b.dataset.active==='true'?'master':'unmaster');render();toast(b.dataset.active==='true'?'已标记掌握，之后答错会自动回归':'已放回待复习列表');});
+ $('#prev-page').onclick=()=>{listPage--;render();};$('#next-page').onclick=()=>{listPage++;render();};if($('#export-backup'))$('#export-backup').onclick=exportBackup;
+ if($('#practice-errors'))$('#practice-errors').onclick=()=>{const ids=listItems().map(w=>w.id);startQuiz(false,shuffle(ids));location.hash='choice';};
+}
+function speak(word){if(!('speechSynthesis'in window)){toast('当前浏览器不支持朗读');return;}window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(word);u.lang='en-US';u.rate=.85;u.onerror=()=>toast('朗读暂不可用，请检查系统语音设置');window.speechSynthesis.speak(u);}
+function accountContent(){
+ const box=$('#account-content');if(store.user){box.innerHTML=`<div class="account-info"><strong>${esc(store.user.email)}</strong><span class="muted">${esc(store.status)}</span></div><div class="account-tools"><button id="sync-now" class="btn">立即同步</button><button id="import-guest" class="btn secondary">导入这台设备的访客练习记录</button><button id="backup-account" class="btn secondary">导出学习记录备份</button><button id="import-backup" class="btn secondary">导入备份到当前账号</button><button id="logout" class="text-button">退出登录</button></div><p class="tiny">访客记录不会自动并入账号。不同账号的数据分别保存。</p>`;
+  $('#sync-now').onclick=async()=>{await store.sync();accountContent();};$('#import-guest').onclick=()=>{try{toast(`已导入 ${store.importGuest()} 条访客记录`);}catch(e){toast(e.message);}};$('#backup-account').onclick=exportBackup;$('#import-backup').onclick=()=>$('#import-file').click();$('#logout').onclick=async()=>{const {error}=await store.client.auth.signOut({scope:'local'});if(error){toast(error.message);return;}await store.useSession(null);quiz=null;match=null;navigate();accountContent();toast('已退出，当前显示访客记录');};return;
+ }
+ box.innerHTML=`<form id="auth-form"><div class="field"><label for="email">邮箱</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div><div class="field"><label for="password">密码</label><input id="password" name="password" type="password" autocomplete="current-password" minlength="8" required placeholder="至少 8 位"></div><button type="submit" class="btn full" id="login-submit">登录并同步 ${icon('arrow')}</button><button type="button" id="signup" class="btn secondary full">第一次使用？创建账号</button><div class="error-text" id="auth-message" role="status"></div></form><p class="tiny">注册后请到邮箱确认，再返回此页面登录。<br>访客记录可在登录后手动导入；该账号独立于学习打卡网站。</p><div class="spread"><button id="guest-export" class="text-button">导出本机备份</button><button id="guest-import" class="text-button">导入本机备份</button></div>`;
+ const auth=async signup=>{const form=$('#auth-form');if(!form.reportValidity())return;if(!store.client){$('#auth-message').textContent='云端组件暂不可用，请刷新后重试。';return;}const email=$('#email').value.trim(),password=$('#password').value;$('#login-submit').disabled=true;$('#signup').disabled=true;$('#auth-message').textContent=signup?'正在创建账号…':'正在登录…';
+  try{const {data,error}=signup?await store.client.auth.signUp({email,password,options:{emailRedirectTo:location.origin+location.pathname}}):await store.client.auth.signInWithPassword({email,password});if(error)throw error;if(data.session){await store.useSession(data.session);quiz=null;match=null;navigate();accountContent();toast('已登录，云端记录已载入');}else $('#auth-message').textContent='请检查邮箱中的确认邮件，完成确认后回到本页登录。如果邮件未到，请检查垃圾邮件。';}
+  catch(e){const text=e.message||'网络连接失败';$('#auth-message').textContent=({'Invalid login credentials':'邮箱或密码不正确，请检查；也可能尚未注册。','Email not confirmed':'请先到邮箱完成注册确认，再登录。','Email rate limit exceeded':'邮件发送过于频繁，请稍后重试。','User already registered':'这个邮箱已经注册，请直接登录。'})[text]||text;}
+  finally{if($('#login-submit'))$('#login-submit').disabled=false;if($('#signup'))$('#signup').disabled=false;}
+ };$('#auth-form').onsubmit=e=>{e.preventDefault();auth(false);};$('#signup').onclick=()=>auth(true);$('#guest-export').onclick=exportBackup;$('#guest-import').onclick=()=>$('#import-file').click();
+}
+function openAccount(){accountContent();$('#account-dialog').showModal();}
+async function boot(){
+ try{const response=await fetch('./words.json');if(!response.ok)throw Error('词库文件未加载成功');baseWords=await response.json();store=new LearningStore(baseWords);words=sortWords(store.catalog.active);byId=new Map(store.catalog.all.map(w=>[w.id,w]));
+ library=new LibraryBrowser({store,render,practice:ids=>{startQuiz(false,ids);location.hash='choice';},speak,toast,exportBackup});
+ catalogSignature=store.scope+'|'+store.catalogEvents.map(e=>e.id).join(',');
+ store.addEventListener('change',()=>{
+  const signature=store.scope+'|'+store.catalogEvents.map(e=>e.id).join(',');const changed=signature!==catalogSignature;
+  if(changed){if(signature.split('|')[0]!==catalogSignature.split('|')[0]&&library.dialog.open)library.dialog.close();catalogSignature=signature;words=sortWords(store.catalog.active);byId=new Map(store.catalog.all.map(w=>[w.id,w]));quiz=null;match=null;if(view==='choice')startQuiz(false);if(view==='match')startMatch(false);}
+  refreshHeader();if(changed||view==='home')render();
+ });refreshHeader();navigate();
+ window.addEventListener('hashchange',()=>{listPage=1;listSearch='';letter='';navigate();});window.addEventListener('resize',()=>{if(view==='match')drawLines();});
+ $('#account-button').onclick=openAccount;$('#sync-status').onclick=()=>store.user?store.sync():openAccount();$('[data-close]').onclick=()=>$('#account-dialog').close();$('#account-dialog').onclick=e=>{if(e.target===$('#account-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}};
+ $('#import-file').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>25*1024*1024)throw Error('文件过大，请选择 25 MB 以内的备份');const n=store.importBackup(JSON.parse(await file.text()));toast(`已导入 ${n} 条新记录`);render();}catch(error){toast(error.message);}e.target.value='';};
+ document.addEventListener('keydown',e=>{if($('#account-dialog').open||$('#word-dialog')?.open||/INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName)||view!=='choice'||!quiz||quiz.done||!quiz.queue.length)return;if(/^[1-4]$/.test(e.key)&&quiz.selected===null){e.preventDefault();answerQuiz(quiz.options[Number(e.key)-1].id);}else if(e.key==='Enter'&&quiz.selected!==null){e.preventDefault();nextQuestion();}});
+ await store.init();
+ }catch(error){$('#main').innerHTML=`<section class="panel empty"><h2>词库暂时没打开</h2><p>${esc(error.message)}</p><p>请通过 GitHub Pages 网址访问；上传时保留所有文件与目录。</p><button class="btn" onclick="location.reload()">重新加载</button></section>`;}
+}
+boot();

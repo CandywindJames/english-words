@@ -1,0 +1,5322 @@
+[
+  {
+    "word": "abide",
+    "meaning": "v. 忍受；逗留；遵守",
+    "frequency": 2,
+    "page": 2,
+    "id": "abide"
+  },
+  {
+    "word": "abolish",
+    "meaning": "v. 废止；取消",
+    "frequency": 3,
+    "page": 2,
+    "id": "abolish"
+  },
+  {
+    "word": "abrupt",
+    "meaning": "adj. 突然的，意外的；唐突的；不连贯的",
+    "frequency": 3,
+    "page": 3,
+    "id": "abrupt"
+  },
+  {
+    "word": "abundant",
+    "meaning": "adj. 大量的；丰富的；充足的",
+    "frequency": 4,
+    "page": 1,
+    "id": "abundant"
+  },
+  {
+    "word": "accelerate",
+    "meaning": "v. 增长；（使）加速",
+    "frequency": 7,
+    "page": 1,
+    "id": "accelerate"
+  },
+  {
+    "word": "account",
+    "meaning": "v. 认为是，视为；说明；解释 n. 账户；账目；报道，记述；解释，说明；重要性；会计科 phrase. （account for） 占（数量、比例）；（hold to account）追究责任",
+    "frequency": 34,
+    "page": 1,
+    "id": "account"
+  },
+  {
+    "word": "accountable",
+    "meaning": "adj. （对自己的决定、行为）负有责任；有解释义务的",
+    "frequency": null,
+    "page": 3,
+    "id": "accountable"
+  },
+  {
+    "word": "acquaintance",
+    "meaning": "n. 熟人；相识",
+    "frequency": 5,
+    "page": 1,
+    "id": "acquaintance"
+  },
+  {
+    "word": "acquisition",
+    "meaning": "n. 获得；习得；收购（物）",
+    "frequency": 10,
+    "page": 3,
+    "id": "acquisition"
+  },
+  {
+    "word": "acute",
+    "meaning": "adj. 严重的；急性的；灵敏的；锐角的",
+    "frequency": 3,
+    "page": 1,
+    "id": "acute"
+  },
+  {
+    "word": "adequate",
+    "meaning": "adj. 足够的；能胜任的",
+    "frequency": 10,
+    "page": 1,
+    "id": "adequate"
+  },
+  {
+    "word": "adequately",
+    "meaning": "adv. 充分地；足够地；适当地",
+    "frequency": null,
+    "page": 3,
+    "id": "adequately"
+  },
+  {
+    "word": "adhere",
+    "meaning": "v. 黏附，附着；遵守；追随",
+    "frequency": 4,
+    "page": 2,
+    "id": "adhere"
+  },
+  {
+    "word": "adolescent",
+    "meaning": "adj. 青春期的 n. 青少年",
+    "frequency": 4,
+    "page": 3,
+    "id": "adolescent"
+  },
+  {
+    "word": "advanced",
+    "meaning": "adj. 先进的；高级的；晚期的",
+    "frequency": 11,
+    "page": 1,
+    "id": "advanced"
+  },
+  {
+    "word": "advent",
+    "meaning": "n. 来临，到来",
+    "frequency": 2,
+    "page": 1,
+    "id": "advent"
+  },
+  {
+    "word": "adverse",
+    "meaning": "adj. 不利的，有害的；相反的；敌对的",
+    "frequency": 2,
+    "page": 3,
+    "id": "adverse"
+  },
+  {
+    "word": "aesthetic",
+    "meaning": "adj. 美学的；审美的 n. 美感；美学 - =<美>esthetic",
+    "frequency": 2,
+    "page": 3,
+    "id": "aesthetic"
+  },
+  {
+    "word": "affirm",
+    "meaning": "v. 断言；证实；给予感情支持",
+    "frequency": 3,
+    "page": 2,
+    "id": "affirm"
+  },
+  {
+    "word": "affirmation",
+    "meaning": "n. 肯定，断言，证实，批准",
+    "frequency": null,
+    "page": 3,
+    "id": "affirmation"
+  },
+  {
+    "word": "agenda",
+    "meaning": "n. 议题；议事日程；潜在意图",
+    "frequency": 5,
+    "page": 3,
+    "id": "agenda"
+  },
+  {
+    "word": "aggravate",
+    "meaning": "v. 加剧，使恶化；激怒",
+    "frequency": 1,
+    "page": 3,
+    "id": "aggravate"
+  },
+  {
+    "word": "aggressive",
+    "meaning": "adj. 好斗的；积极进取的",
+    "frequency": 11,
+    "page": 1,
+    "id": "aggressive"
+  },
+  {
+    "word": "allegiance",
+    "meaning": "n. 拥护；忠诚",
+    "frequency": 1,
+    "page": 3,
+    "id": "allegiance"
+  },
+  {
+    "word": "allowance",
+    "meaning": "n. 津贴；零花钱；限额",
+    "frequency": 4,
+    "page": 2,
+    "id": "allowance"
+  },
+  {
+    "word": "alter",
+    "meaning": "v. 改变；改动",
+    "frequency": 10,
+    "page": 1,
+    "id": "alter"
+  },
+  {
+    "word": "alternate",
+    "meaning": "v. 交替；轮流 adj. 交替的；间隔的；可替代的 n. 替补者",
+    "frequency": 2,
+    "page": 2,
+    "id": "alternate"
+  },
+  {
+    "word": "alternative",
+    "meaning": "adj. 可供替代的；非传统的 n. 可供选择的事物",
+    "frequency": 9,
+    "page": 1,
+    "id": "alternative"
+  },
+  {
+    "word": "amateur",
+    "meaning": "adj. 业余的；不熟练的 n. 业余爱好者；外行",
+    "frequency": 11,
+    "page": 2,
+    "id": "amateur"
+  },
+  {
+    "word": "ambiguous",
+    "meaning": "adj. 模棱两可的；有歧义的",
+    "frequency": 3,
+    "page": 2,
+    "id": "ambiguous"
+  },
+  {
+    "word": "amount",
+    "meaning": "n. 数量；金额；一笔钱 v. 总计；相当于",
+    "frequency": 32,
+    "page": 1,
+    "id": "amount"
+  },
+  {
+    "word": "analogy",
+    "meaning": "n. 类比；比喻",
+    "frequency": 3,
+    "page": 2,
+    "id": "analogy"
+  },
+  {
+    "word": "anticipate",
+    "meaning": "v. 预料；期盼；早于…行动",
+    "frequency": 6,
+    "page": 1,
+    "id": "anticipate"
+  },
+  {
+    "word": "apparent",
+    "meaning": "adj. 明显的；表面上的；貌似的",
+    "frequency": 9,
+    "page": 1,
+    "id": "apparent"
+  },
+  {
+    "word": "appeal",
+    "meaning": "n. 上诉；吸引力；呼吁 v. 上诉；有吸引力；呼吁；恳求",
+    "frequency": 27,
+    "page": 1,
+    "id": "appeal"
+  },
+  {
+    "word": "appetite",
+    "meaning": "n. 食欲；欲望",
+    "frequency": 5,
+    "page": 1,
+    "id": "appetite"
+  },
+  {
+    "word": "approval",
+    "meaning": "n. 批准；同意",
+    "frequency": 11,
+    "page": 1,
+    "id": "approval"
+  },
+  {
+    "word": "apt",
+    "meaning": "adj. 恰当的，有…倾向的，聪明的",
+    "frequency": 1,
+    "page": 2,
+    "id": "apt"
+  },
+  {
+    "word": "arbitrary",
+    "meaning": "adj. 任意的；武断的；专横的",
+    "frequency": 2,
+    "page": 1,
+    "id": "arbitrary"
+  },
+  {
+    "word": "aristocratic",
+    "meaning": "adj. 贵族的",
+    "frequency": null,
+    "page": 3,
+    "id": "aristocratic"
+  },
+  {
+    "word": "arouse",
+    "meaning": "v. 唤起，激起",
+    "frequency": 7,
+    "page": 2,
+    "id": "arouse"
+  },
+  {
+    "word": "arrange",
+    "meaning": "v. 安排；筹划；整理；布置；改编",
+    "frequency": 8,
+    "page": 1,
+    "id": "arrange"
+  },
+  {
+    "word": "arrest",
+    "meaning": "v. 逮捕；吸引；阻止 n. 逮捕；停止",
+    "frequency": 4,
+    "page": 2,
+    "id": "arrest"
+  },
+  {
+    "word": "ascribe",
+    "meaning": "v. 把…归因于；将…归属",
+    "frequency": 1,
+    "page": 2,
+    "id": "ascribe"
+  },
+  {
+    "word": "aspect",
+    "meaning": "n. 方面；朝向；外观",
+    "frequency": 15,
+    "page": 2,
+    "id": "aspect"
+  },
+  {
+    "word": "assembly",
+    "meaning": "n. 议会；集会；组装",
+    "frequency": 2,
+    "page": 2,
+    "id": "assembly"
+  },
+  {
+    "word": "assert",
+    "meaning": "v. 断言；坚持",
+    "frequency": 5,
+    "page": 2,
+    "id": "assert"
+  },
+  {
+    "word": "assess",
+    "meaning": "v. 评估；估算",
+    "frequency": 16,
+    "page": 2,
+    "id": "assess"
+  },
+  {
+    "word": "asset",
+    "meaning": "n. 有价值的人或物；资产",
+    "frequency": 14,
+    "page": 3,
+    "id": "asset"
+  },
+  {
+    "word": "assign",
+    "meaning": "v. 分配；布置；指派；把…归于",
+    "frequency": 5,
+    "page": 2,
+    "id": "assign"
+  },
+  {
+    "word": "assist",
+    "meaning": "v. 协助；促进 n. 助攻",
+    "frequency": 9,
+    "page": 2,
+    "id": "assist"
+  },
+  {
+    "word": "assume",
+    "meaning": "v. 假设，认为；承担；就职；呈现；假装",
+    "frequency": 22,
+    "page": 2,
+    "id": "assume"
+  },
+  {
+    "word": "assumption",
+    "meaning": "n. 假定；臆断；承担",
+    "frequency": 11,
+    "page": 2,
+    "id": "assumption"
+  },
+  {
+    "word": "attempt",
+    "meaning": "n. 尝试，试图；杀人企图 v. 试图，尝试",
+    "frequency": 30,
+    "page": 1,
+    "id": "attempt"
+  },
+  {
+    "word": "attribute",
+    "meaning": "v. 把…归因于；认为是…所作 n. 属性，特征",
+    "frequency": 9,
+    "page": 2,
+    "id": "attribute"
+  },
+  {
+    "word": "auditorium",
+    "meaning": "n. 礼堂；观众席",
+    "frequency": 7,
+    "page": 3,
+    "id": "auditorium"
+  },
+  {
+    "word": "augment",
+    "meaning": "v. 扩大；增加；增强",
+    "frequency": 2,
+    "page": 3,
+    "id": "augment"
+  },
+  {
+    "word": "authentic",
+    "meaning": "adj. 真正的；真迹的；真实的；可靠的",
+    "frequency": 3,
+    "page": 3,
+    "id": "authentic"
+  },
+  {
+    "word": "authority",
+    "meaning": "n. 当局；权威；管辖权；权力",
+    "frequency": 27,
+    "page": 2,
+    "id": "authority"
+  },
+  {
+    "word": "autonomy",
+    "meaning": "n. 自治；自主权",
+    "frequency": null,
+    "page": 3,
+    "id": "autonomy"
+  },
+  {
+    "word": "avenue",
+    "meaning": "n. 林荫道；大街；途径",
+    "frequency": 2,
+    "page": 2,
+    "id": "avenue"
+  },
+  {
+    "word": "avert",
+    "meaning": "v. 防止，避免；转移",
+    "frequency": 1,
+    "page": 3,
+    "id": "avert"
+  },
+  {
+    "word": "bail",
+    "meaning": "n. 保释（金） v. 保释；迅速离开",
+    "frequency": null,
+    "page": 4,
+    "id": "bail"
+  },
+  {
+    "word": "be assigned to",
+    "meaning": "phrase. 归属于，被指派",
+    "frequency": null,
+    "page": 4,
+    "id": "be assigned to"
+  },
+  {
+    "word": "be subjected to",
+    "meaning": "phrase. 遭受，经历",
+    "frequency": 1,
+    "page": 4,
+    "id": "be subjected to"
+  },
+  {
+    "word": "bearing",
+    "meaning": "n. 影响；关系；方位；轴承；举止",
+    "frequency": 1,
+    "page": 4,
+    "id": "bearing"
+  },
+  {
+    "word": "belief",
+    "meaning": "n. 相信；看法，信念；宗教信仰",
+    "frequency": 23,
+    "page": 3,
+    "id": "belief"
+  },
+  {
+    "word": "bench",
+    "meaning": "n. 长椅；工作台；法官；替补席 v. 不让上场",
+    "frequency": 2,
+    "page": 3,
+    "id": "bench"
+  },
+  {
+    "word": "benign",
+    "meaning": "adj. 和善的；宜人的；良性的",
+    "frequency": 2,
+    "page": 4,
+    "id": "benign"
+  },
+  {
+    "word": "bias",
+    "meaning": "n. 偏袒，偏见；（统计）偏差 v. 使偏心，使有偏见",
+    "frequency": 16,
+    "page": 4,
+    "id": "bias"
+  },
+  {
+    "word": "bizarre",
+    "meaning": "adj. 奇异的，怪诞的",
+    "frequency": 2,
+    "page": 4,
+    "id": "bizarre"
+  },
+  {
+    "word": "blaze",
+    "meaning": "n. 火焰，烈火；火灾；（指示道路的）标记 v. 燃烧；闪耀；怒视",
+    "frequency": 4,
+    "page": 3,
+    "id": "blaze"
+  },
+  {
+    "word": "bleak",
+    "meaning": "adj. 无望的；荒凉的；阴冷的",
+    "frequency": 3,
+    "page": 4,
+    "id": "bleak"
+  },
+  {
+    "word": "board",
+    "meaning": "n. 板；布告牌；董事会，委员会；膳食 v. 登上交通工具；寄宿",
+    "frequency": 47,
+    "page": 3,
+    "id": "board"
+  },
+  {
+    "word": "bonus",
+    "meaning": "n. 奖金；额外的好处",
+    "frequency": 5,
+    "page": 4,
+    "id": "bonus"
+  },
+  {
+    "word": "bounce",
+    "meaning": "v. 弹跳，跳动；蹦跳前行；解雇 n. 弹跳；弹性；精力；蓬松",
+    "frequency": 1,
+    "page": 3,
+    "id": "bounce"
+  },
+  {
+    "word": "bound",
+    "meaning": "adj. 必然的；到…去的；受约束的 v. 跳跃着跑；形成…的边界 n.界限；蹦跳",
+    "frequency": 5,
+    "page": 3,
+    "id": "bound"
+  },
+  {
+    "word": "boundary",
+    "meaning": "n. 分界线；界限",
+    "frequency": 4,
+    "page": 4,
+    "id": "boundary"
+  },
+  {
+    "word": "boycott",
+    "meaning": "v. 抵制 n. 联合抵制",
+    "frequency": 3,
+    "page": 4,
+    "id": "boycott"
+  },
+  {
+    "word": "breed",
+    "meaning": "n. 品种；类型 v. 繁殖；饲养；孕育；导致",
+    "frequency": 3,
+    "page": 4,
+    "id": "breed"
+  },
+  {
+    "word": "bud",
+    "meaning": "n. 芽，花苞；老兄 v. 发芽 adj. （budding）萌发中的",
+    "frequency": 1,
+    "page": 4,
+    "id": "bud"
+  },
+  {
+    "word": "bulk",
+    "meaning": "n. 主体；大部分；大量",
+    "frequency": 6,
+    "page": 4,
+    "id": "bulk"
+  },
+  {
+    "word": "burden",
+    "meaning": "n. 负担，重负 v. 烦扰",
+    "frequency": 14,
+    "page": 4,
+    "id": "burden"
+  },
+  {
+    "word": "bureaucratic",
+    "meaning": "adj. 官僚的，官僚主义的",
+    "frequency": null,
+    "page": 4,
+    "id": "bureaucratic"
+  },
+  {
+    "word": "cable",
+    "meaning": "n. 缆绳；钢索；电缆；电报；有线电视 v. 发电报",
+    "frequency": 3,
+    "page": 4,
+    "id": "cable"
+  },
+  {
+    "word": "campaign",
+    "meaning": "n. 战役；活动；运动 v. 发起运动",
+    "frequency": 19,
+    "page": 5,
+    "id": "campaign"
+  },
+  {
+    "word": "captive",
+    "meaning": "n. 俘虏；被囚禁者 adj. 被监禁的；受控制的",
+    "frequency": 4,
+    "page": 5,
+    "id": "captive"
+  },
+  {
+    "word": "carve",
+    "meaning": "v. 雕刻；划分；把熟肉切成块；成功获得",
+    "frequency": 2,
+    "page": 5,
+    "id": "carve"
+  },
+  {
+    "word": "cast",
+    "meaning": "v. 投，抛；向…投以；投射；铸造；选角 phrase. （cast doubt on）对…产生怀疑 n. 全体演员；铸造品；石膏绷带",
+    "frequency": 5,
+    "page": 5,
+    "id": "cast"
+  },
+  {
+    "word": "casual",
+    "meaning": "adj. 随意的；没有预先计划的；偶然的；非正式的；萍水相逢的 n.临时工；便装",
+    "frequency": 9,
+    "page": 5,
+    "id": "casual"
+  },
+  {
+    "word": "category",
+    "meaning": "n. 种类，类别",
+    "frequency": 14,
+    "page": 7,
+    "id": "category"
+  },
+  {
+    "word": "cater",
+    "meaning": "v. 提供饮食；迎合，满足需要",
+    "frequency": 6,
+    "page": 4,
+    "id": "cater"
+  },
+  {
+    "word": "charm",
+    "meaning": "n. 魅力；挂坠；咒语 v. 吸引，迷住；施魔法控制",
+    "frequency": 2,
+    "page": 7,
+    "id": "charm"
+  },
+  {
+    "word": "chronic",
+    "meaning": "adj. 慢性的；积习难改的；长期的",
+    "frequency": 6,
+    "page": 4,
+    "id": "chronic"
+  },
+  {
+    "word": "circumstance",
+    "meaning": "n. 情况，条件；经济状况",
+    "frequency": 12,
+    "page": 5,
+    "id": "circumstance"
+  },
+  {
+    "word": "claim",
+    "meaning": "v. 要求；认领；声称；夺去；索赔 n. 索取，索赔；声称；要求；所有权；专利新特征申明",
+    "frequency": 38,
+    "page": 5,
+    "id": "claim"
+  },
+  {
+    "word": "cliff",
+    "meaning": "n. 悬崖，峭壁",
+    "frequency": 1,
+    "page": 5,
+    "id": "cliff"
+  },
+  {
+    "word": "climate",
+    "meaning": "n. 气候；社会风气",
+    "frequency": 53,
+    "page": 5,
+    "id": "climate"
+  },
+  {
+    "word": "close in on",
+    "meaning": "phrase. 围住；接近",
+    "frequency": 1,
+    "page": 9,
+    "id": "close in on"
+  },
+  {
+    "word": "clumsy",
+    "meaning": "adj. 笨拙的；不得体的；使用不便的",
+    "frequency": 1,
+    "page": 5,
+    "id": "clumsy"
+  },
+  {
+    "word": "coherent",
+    "meaning": "adj. 连贯的；言谈条理清楚的",
+    "frequency": 1,
+    "page": 7,
+    "id": "coherent"
+  },
+  {
+    "word": "coincide",
+    "meaning": "v. 同时发生；（意见等）相同；重叠",
+    "frequency": 3,
+    "page": 7,
+    "id": "coincide"
+  },
+  {
+    "word": "collaborate",
+    "meaning": "v. 合作，协作；勾结",
+    "frequency": 6,
+    "page": 7,
+    "id": "collaborate"
+  },
+  {
+    "word": "collapse",
+    "meaning": "v. 坍塌；昏倒；突然失败；崩溃；暴跌；折叠 n. 倒塌；突然倒闭；崩溃；暴跌",
+    "frequency": 6,
+    "page": 5,
+    "id": "collapse"
+  },
+  {
+    "word": "collective",
+    "meaning": "adj. 集体的，共同的 n. 集体企业",
+    "frequency": 12,
+    "page": 5,
+    "id": "collective"
+  },
+  {
+    "word": "colonial",
+    "meaning": "adj. 殖民地的；殖民地时期的 n. 殖民地居民",
+    "frequency": 3,
+    "page": 7,
+    "id": "colonial"
+  },
+  {
+    "word": "colony",
+    "meaning": "n. 殖民地；聚居地；群体",
+    "frequency": 5,
+    "page": 5,
+    "id": "colony"
+  },
+  {
+    "word": "combat",
+    "meaning": "n. 战斗，格斗 v. 与…作斗争；防止",
+    "frequency": 8,
+    "page": 4,
+    "id": "combat"
+  },
+  {
+    "word": "commercial",
+    "meaning": "adj. 商业的；贸易的；获利的 n. 电视或电台广告",
+    "frequency": 26,
+    "page": 5,
+    "id": "commercial"
+  },
+  {
+    "word": "commission",
+    "meaning": "v. 正式委托；任命…为军官 n. 委员会；佣金；委托",
+    "frequency": 30,
+    "page": 5,
+    "id": "commission"
+  },
+  {
+    "word": "commodity",
+    "meaning": "n. 商品，货物；有用的东西",
+    "frequency": 5,
+    "page": 7,
+    "id": "commodity"
+  },
+  {
+    "word": "commute",
+    "meaning": "v. 通勤；减刑 n. 通勤",
+    "frequency": 4,
+    "page": 8,
+    "id": "commute"
+  },
+  {
+    "word": "comparable",
+    "meaning": "adj. 类似的；可比较的；比得上的",
+    "frequency": 4,
+    "page": 7,
+    "id": "comparable"
+  },
+  {
+    "word": "compel",
+    "meaning": "v. 强迫，迫使",
+    "frequency": 2,
+    "page": 5,
+    "id": "compel"
+  },
+  {
+    "word": "compensate",
+    "meaning": "v. 补偿，赔偿；弥补",
+    "frequency": 7,
+    "page": 7,
+    "id": "compensate"
+  },
+  {
+    "word": "competent",
+    "meaning": "adj. 胜任的；合格的；有能力的",
+    "frequency": 4,
+    "page": 5,
+    "id": "competent"
+  },
+  {
+    "word": "compile",
+    "meaning": "v. 编纂；收集",
+    "frequency": 2,
+    "page": 4,
+    "id": "compile"
+  },
+  {
+    "word": "comply",
+    "meaning": "v. 遵从，服从",
+    "frequency": 4,
+    "page": 7,
+    "id": "comply"
+  },
+  {
+    "word": "component",
+    "meaning": "n. 组成部分；零件 adj. 组成的；构成的",
+    "frequency": 7,
+    "page": 5,
+    "id": "component"
+  },
+  {
+    "word": "comprehension",
+    "meaning": "n. 理解力",
+    "frequency": 6,
+    "page": 5,
+    "id": "comprehension"
+  },
+  {
+    "word": "comprehensive",
+    "meaning": "adj. 全面的；综合性的；广泛的",
+    "frequency": 9,
+    "page": 5,
+    "id": "comprehensive"
+  },
+  {
+    "word": "concede",
+    "meaning": "v. 承认；让步；让与",
+    "frequency": 1,
+    "page": 8,
+    "id": "concede"
+  },
+  {
+    "word": "conceive",
+    "meaning": "v. 想象，构想；怀孕",
+    "frequency": 4,
+    "page": 4,
+    "id": "conceive"
+  },
+  {
+    "word": "concentrate",
+    "meaning": "v. 聚精会神；使集中；注重；聚集 n. 浓缩物",
+    "frequency": 11,
+    "page": 5,
+    "id": "concentrate"
+  },
+  {
+    "word": "concept",
+    "meaning": "n. 观念，概念",
+    "frequency": 29,
+    "page": 5,
+    "id": "concept"
+  },
+  {
+    "word": "conception",
+    "meaning": "n. 构思；概念；受孕",
+    "frequency": 4,
+    "page": 8,
+    "id": "conception"
+  },
+  {
+    "word": "conclude",
+    "meaning": "v. 得出结论；结束",
+    "frequency": 22,
+    "page": 5,
+    "id": "conclude"
+  },
+  {
+    "word": "conclusion",
+    "meaning": "n. 结论；结束；签订",
+    "frequency": 7,
+    "page": 6,
+    "id": "conclusion"
+  },
+  {
+    "word": "condemn",
+    "meaning": "v. 谴责；判处；使陷入",
+    "frequency": 2,
+    "page": 6,
+    "id": "condemn"
+  },
+  {
+    "word": "conditional",
+    "meaning": "adj. 附带条件的，依…而定的 n. 条件句",
+    "frequency": null,
+    "page": 8,
+    "id": "conditional"
+  },
+  {
+    "word": "conduct",
+    "meaning": "v. 执行；指挥；引导；表现；传导 n. 行为举止；管理方式",
+    "frequency": 27,
+    "page": 6,
+    "id": "conduct"
+  },
+  {
+    "word": "conference",
+    "meaning": "n. 会议",
+    "frequency": 6,
+    "page": 6,
+    "id": "conference"
+  },
+  {
+    "word": "confine",
+    "meaning": "v. 限制；监禁；使局限于",
+    "frequency": 3,
+    "page": 4,
+    "id": "confine"
+  },
+  {
+    "word": "conflict",
+    "meaning": "n. 冲突，争论；抵触，矛盾 v. 冲突，抵触",
+    "frequency": 11,
+    "page": 6,
+    "id": "conflict"
+  },
+  {
+    "word": "confront",
+    "meaning": "v. 正视；处理（问题）；面对；遭遇",
+    "frequency": 5,
+    "page": 8,
+    "id": "confront"
+  },
+  {
+    "word": "congress",
+    "meaning": "n. 代表大会；国会",
+    "frequency": 25,
+    "page": 6,
+    "id": "congress"
+  },
+  {
+    "word": "conscious",
+    "meaning": "adj. 意识到的；有意的；清醒的；自觉的",
+    "frequency": 16,
+    "page": 6,
+    "id": "conscious"
+  },
+  {
+    "word": "consensus",
+    "meaning": "n. 一致的意见，共识",
+    "frequency": 7,
+    "page": 8,
+    "id": "consensus"
+  },
+  {
+    "word": "consent",
+    "meaning": "n. 同意，赞成 v. 同意，允许",
+    "frequency": 6,
+    "page": 6,
+    "id": "consent"
+  },
+  {
+    "word": "consequence",
+    "meaning": "n. 结果，后果；重要性",
+    "frequency": 26,
+    "page": 6,
+    "id": "consequence"
+  },
+  {
+    "word": "consequently",
+    "meaning": "adv. 因此，所以",
+    "frequency": 7,
+    "page": 6,
+    "id": "consequently"
+  },
+  {
+    "word": "conservation",
+    "meaning": "n. 节约；保护；修复",
+    "frequency": 22,
+    "page": 6,
+    "id": "conservation"
+  },
+  {
+    "word": "conservative",
+    "meaning": "adj. 保守的；保守党的 n. 保守党党员；保守者",
+    "frequency": 13,
+    "page": 6,
+    "id": "conservative"
+  },
+  {
+    "word": "considerable",
+    "meaning": "adj. 相当大的，相当多的",
+    "frequency": 11,
+    "page": 6,
+    "id": "considerable"
+  },
+  {
+    "word": "consist",
+    "meaning": "v. 由…组成；在于",
+    "frequency": 5,
+    "page": 6,
+    "id": "consist"
+  },
+  {
+    "word": "consistent",
+    "meaning": "adj. 持续的；始终如一的；一致的",
+    "frequency": 2,
+    "page": 6,
+    "id": "consistent"
+  },
+  {
+    "word": "consolidate",
+    "meaning": "v. 巩固，加强；合并；统一",
+    "frequency": 5,
+    "page": 8,
+    "id": "consolidate"
+  },
+  {
+    "word": "constant",
+    "meaning": "adj. 连续不断的；恒定的 n. 常数，恒量；持久不变",
+    "frequency": 14,
+    "page": 6,
+    "id": "constant"
+  },
+  {
+    "word": "constituent",
+    "meaning": "n. 成分；选民 adj. 组成的，构成的",
+    "frequency": 3,
+    "page": 8,
+    "id": "constituent"
+  },
+  {
+    "word": "constitute",
+    "meaning": "v. 被算作；组成，构成；设立；相当于",
+    "frequency": 6,
+    "page": 8,
+    "id": "constitute"
+  },
+  {
+    "word": "constitution",
+    "meaning": "n. 宪法；构成；体质；成分",
+    "frequency": 11,
+    "page": 4,
+    "id": "constitution"
+  },
+  {
+    "word": "constrain",
+    "meaning": "v. 限制，约束；强迫",
+    "frequency": 6,
+    "page": 8,
+    "id": "constrain"
+  },
+  {
+    "word": "construct",
+    "meaning": "v. 建造；构成；绘制 n. 构想；建造物",
+    "frequency": 3,
+    "page": 6,
+    "id": "construct"
+  },
+  {
+    "word": "consult",
+    "meaning": "v. 请教，咨询；查阅",
+    "frequency": 2,
+    "page": 6,
+    "id": "consult"
+  },
+  {
+    "word": "consumption",
+    "meaning": "n. 消耗；食用；消费",
+    "frequency": 22,
+    "page": 6,
+    "id": "consumption"
+  },
+  {
+    "word": "contemporary",
+    "meaning": "adj. 当代的；同时代的 n. 同时代的人",
+    "frequency": 5,
+    "page": 6,
+    "id": "contemporary"
+  },
+  {
+    "word": "contempt",
+    "meaning": "n. 轻视，轻蔑",
+    "frequency": 4,
+    "page": 6,
+    "id": "contempt"
+  },
+  {
+    "word": "contemptuous",
+    "meaning": "adj. 轻蔑的，鄙夷的",
+    "frequency": null,
+    "page": 8,
+    "id": "contemptuous"
+  },
+  {
+    "word": "contend",
+    "meaning": "v. 主张，声称；竞争；处理，解决",
+    "frequency": 4,
+    "page": 8,
+    "id": "contend"
+  },
+  {
+    "word": "context",
+    "meaning": "n. 背景，环境；上下文，语境",
+    "frequency": 13,
+    "page": 8,
+    "id": "context"
+  },
+  {
+    "word": "continent",
+    "meaning": "n. 洲；大陆",
+    "frequency": 16,
+    "page": 6,
+    "id": "continent"
+  },
+  {
+    "word": "contract",
+    "meaning": "n. 合同，契约 v. 收缩；订立合同；感染",
+    "frequency": 9,
+    "page": 6,
+    "id": "contract"
+  },
+  {
+    "word": "contradict",
+    "meaning": "v. 反驳；相抵触，相矛盾",
+    "frequency": 2,
+    "page": 8,
+    "id": "contradict"
+  },
+  {
+    "word": "contrary",
+    "meaning": "adj. 对立的，相反的 n. 相反的事实；对立命题",
+    "frequency": 10,
+    "page": 6,
+    "id": "contrary"
+  },
+  {
+    "word": "contrast",
+    "meaning": "n. 差异，差别；截然不同的事物 v. 对比；明显不同",
+    "frequency": 29,
+    "page": 7,
+    "id": "contrast"
+  },
+  {
+    "word": "contributory",
+    "meaning": "adj. 促成的，促进的，起作用的，需要受益人付钱的",
+    "frequency": null,
+    "page": 9,
+    "id": "contributory"
+  },
+  {
+    "word": "contrive",
+    "meaning": "v. 设法做到；策划",
+    "frequency": 1,
+    "page": 8,
+    "id": "contrive"
+  },
+  {
+    "word": "controllable",
+    "meaning": "adj. 可控制（或管理、操纵、支配）的",
+    "frequency": null,
+    "page": 9,
+    "id": "controllable"
+  },
+  {
+    "word": "controversial",
+    "meaning": "adj. 有争议的，引发争论的",
+    "frequency": 8,
+    "page": 8,
+    "id": "controversial"
+  },
+  {
+    "word": "controversy",
+    "meaning": "n. 争论，争议",
+    "frequency": 8,
+    "page": 8,
+    "id": "controversy"
+  },
+  {
+    "word": "convention",
+    "meaning": "n. 习俗，惯例；大会；国际公约",
+    "frequency": 9,
+    "page": 7,
+    "id": "convention"
+  },
+  {
+    "word": "conversely",
+    "meaning": "adv. 相反地",
+    "frequency": 3,
+    "page": 7,
+    "id": "conversely"
+  },
+  {
+    "word": "convey",
+    "meaning": "v. 表达，传递；运输，运送",
+    "frequency": 13,
+    "page": 7,
+    "id": "convey"
+  },
+  {
+    "word": "convict",
+    "meaning": "v. 定罪，宣判有罪 n. 囚犯",
+    "frequency": null,
+    "page": 8,
+    "id": "convict"
+  },
+  {
+    "word": "conviction",
+    "meaning": "n. 定罪；坚定的信念；深信",
+    "frequency": 1,
+    "page": 8,
+    "id": "conviction"
+  },
+  {
+    "word": "coordinate",
+    "meaning": "v. 配合；搭配；协调 n. 坐标",
+    "frequency": 4,
+    "page": 7,
+    "id": "coordinate"
+  },
+  {
+    "word": "corporate",
+    "meaning": "adj. 公司的；法人的；全体的",
+    "frequency": 44,
+    "page": 9,
+    "id": "corporate"
+  },
+  {
+    "word": "corruptive",
+    "meaning": "adj. 使腐败[堕落]的, 腐败性的, 败坏的",
+    "frequency": null,
+    "page": 9,
+    "id": "corruptive"
+  },
+  {
+    "word": "council",
+    "meaning": "n. 议会；委员会 phrase. （council flat）公屋",
+    "frequency": 11,
+    "page": 7,
+    "id": "council"
+  },
+  {
+    "word": "counsel",
+    "meaning": "n. 律师；忠告，建议 v. 建议，劝告；提供专业咨询",
+    "frequency": 5,
+    "page": 8,
+    "id": "counsel"
+  },
+  {
+    "word": "counter",
+    "meaning": "v. 反驳；抵消 n. 柜台；操作台；计数器；对立面 adv. 逆向地；反对地 prefix. 相反；反对",
+    "frequency": 7,
+    "page": 7,
+    "id": "counter"
+  },
+  {
+    "word": "counterpart",
+    "meaning": "n. 职务相当的人，作用相当的事物",
+    "frequency": 8,
+    "page": 8,
+    "id": "counterpart"
+  },
+  {
+    "word": "court",
+    "meaning": "n. 法庭；宫廷；球场；全体法官 v. 讨好；追求；招致；求爱",
+    "frequency": 73,
+    "page": 7,
+    "id": "court"
+  },
+  {
+    "word": "crack",
+    "meaning": "v. 破裂；砸开；重击；破译；解决 n. 裂缝；缝隙；爆裂声；尝试",
+    "frequency": 4,
+    "page": 7,
+    "id": "crack"
+  },
+  {
+    "word": "criterion",
+    "meaning": "n. 标准，准则",
+    "frequency": 3,
+    "page": 8,
+    "id": "criterion"
+  },
+  {
+    "word": "critic",
+    "meaning": "n. 评论家；批评者",
+    "frequency": 12,
+    "page": 7,
+    "id": "critic"
+  },
+  {
+    "word": "criticism",
+    "meaning": "n. 批评，指责；(对书等的) 评论",
+    "frequency": 25,
+    "page": 7,
+    "id": "criticism"
+  },
+  {
+    "word": "criticize",
+    "meaning": "v. 批评；评论 - =<英>criticise",
+    "frequency": 6,
+    "page": 7,
+    "id": "criticize"
+  },
+  {
+    "word": "crucial",
+    "meaning": "adj. 至关重要的，决定性的",
+    "frequency": 20,
+    "page": 8,
+    "id": "crucial"
+  },
+  {
+    "word": "crude",
+    "meaning": "adj. 粗略的；粗糙的；粗鲁的；天然的 n. 原油",
+    "frequency": 8,
+    "page": 7,
+    "id": "crude"
+  },
+  {
+    "word": "cruise",
+    "meaning": "n. 航行；乘船游览 v. 乘船游览；以平稳速度行驶；轻松获胜",
+    "frequency": 2,
+    "page": 8,
+    "id": "cruise"
+  },
+  {
+    "word": "culminate",
+    "meaning": "v. 以…告终；结果成为；达到顶点",
+    "frequency": null,
+    "page": 9,
+    "id": "culminate"
+  },
+  {
+    "word": "cultivate",
+    "meaning": "v. 种植；培养，树立；建立（友谊）；获得（支持）；逐渐形成",
+    "frequency": 5,
+    "page": 7,
+    "id": "cultivate"
+  },
+  {
+    "word": "cumulative",
+    "meaning": "adj. 聚积的，积累的",
+    "frequency": 1,
+    "page": 9,
+    "id": "cumulative"
+  },
+  {
+    "word": "curb",
+    "meaning": "v. 抑制，约束 n. 抑制，约束；马路牙子",
+    "frequency": 12,
+    "page": 9,
+    "id": "curb"
+  },
+  {
+    "word": "daunting",
+    "meaning": "adj. 令人畏惧的",
+    "frequency": 1,
+    "page": 9,
+    "id": "daunting"
+  },
+  {
+    "word": "debt",
+    "meaning": "n. 债务；负债状态；恩情",
+    "frequency": 14,
+    "page": 9,
+    "id": "debt"
+  },
+  {
+    "word": "decay",
+    "meaning": "n. 腐烂；衰败，衰退 v. 腐烂；（建筑）破败；衰败",
+    "frequency": 4,
+    "page": 9,
+    "id": "decay"
+  },
+  {
+    "word": "decree",
+    "meaning": "n. 法令，政令；判决 v. 判决，颁布",
+    "frequency": null,
+    "page": 10,
+    "id": "decree"
+  },
+  {
+    "word": "dedicate",
+    "meaning": "v. 致力于，献身；把（书等作品）献给",
+    "frequency": 7,
+    "page": 10,
+    "id": "dedicate"
+  },
+  {
+    "word": "deficiency",
+    "meaning": "n. 缺乏，不足；缺点",
+    "frequency": 4,
+    "page": 10,
+    "id": "deficiency"
+  },
+  {
+    "word": "deficit",
+    "meaning": "n. 赤字，逆差；缺陷；缺乏，不足额",
+    "frequency": 3,
+    "page": 9,
+    "id": "deficit"
+  },
+  {
+    "word": "defy",
+    "meaning": "v. 违抗，蔑视；难以解释；经受住",
+    "frequency": 1,
+    "page": 10,
+    "id": "defy"
+  },
+  {
+    "word": "delegate",
+    "meaning": "v. 选派（某人做某事）；授权 n. 代表，会议代表",
+    "frequency": null,
+    "page": 10,
+    "id": "delegate"
+  },
+  {
+    "word": "deliberate",
+    "meaning": "adj. 故意的；从容不迫的 v. 深思熟虑",
+    "frequency": 3,
+    "page": 10,
+    "id": "deliberate"
+  },
+  {
+    "word": "democracy",
+    "meaning": "n. 民主；民主制；民主国家",
+    "frequency": 8,
+    "page": 9,
+    "id": "democracy"
+  },
+  {
+    "word": "democratic",
+    "meaning": "adj. 民主的；民主党的",
+    "frequency": 13,
+    "page": 9,
+    "id": "democratic"
+  },
+  {
+    "word": "depict",
+    "meaning": "v. 描绘；描述，刻画",
+    "frequency": 2,
+    "page": 9,
+    "id": "depict"
+  },
+  {
+    "word": "deprive",
+    "meaning": "v. 剥夺，使丧失",
+    "frequency": 6,
+    "page": 10,
+    "id": "deprive"
+  },
+  {
+    "word": "derive",
+    "meaning": "v. 源自，来源于；从…中获得",
+    "frequency": 6,
+    "page": 9,
+    "id": "derive"
+  },
+  {
+    "word": "designate",
+    "meaning": "v. 指定；正式把…定为；指派，任命；表示 adj. 已任命但尚未就职的",
+    "frequency": 3,
+    "page": 11,
+    "id": "designate"
+  },
+  {
+    "word": "destiny",
+    "meaning": "n. 命运，天数",
+    "frequency": 4,
+    "page": 11,
+    "id": "destiny"
+  },
+  {
+    "word": "destruction",
+    "meaning": "n. 摧毁，毁灭",
+    "frequency": 2,
+    "page": 9,
+    "id": "destruction"
+  },
+  {
+    "word": "detach",
+    "meaning": "v. 拆卸；脱离；摆脱；派遣",
+    "frequency": 1,
+    "page": 11,
+    "id": "detach"
+  },
+  {
+    "word": "deteriorate",
+    "meaning": "v. 恶化，变坏",
+    "frequency": 2,
+    "page": 11,
+    "id": "deteriorate"
+  },
+  {
+    "word": "dictate",
+    "meaning": "v. 口述；听写；命令；支配 n. 命令；指示",
+    "frequency": 4,
+    "page": 9,
+    "id": "dictate"
+  },
+  {
+    "word": "diffuse",
+    "meaning": "v. 传播；扩散；缓解 adj. 弥漫的，扩散的；冗长的",
+    "frequency": 3,
+    "page": 9,
+    "id": "diffuse"
+  },
+  {
+    "word": "dignity",
+    "meaning": "n. 尊严，尊敬；自尊；庄重，体面",
+    "frequency": 4,
+    "page": 11,
+    "id": "dignity"
+  },
+  {
+    "word": "dilemma",
+    "meaning": "n. 进退两难的窘境",
+    "frequency": 7,
+    "page": 9,
+    "id": "dilemma"
+  },
+  {
+    "word": "dilute",
+    "meaning": "v. 稀释；削弱，降低 adj. 稀释了的",
+    "frequency": 1,
+    "page": 9,
+    "id": "dilute"
+  },
+  {
+    "word": "dim",
+    "meaning": "adj. 暗淡的，模糊的；愚笨的；前景黯淡的 v. 变昏暗；变渺茫；使减弱",
+    "frequency": 4,
+    "page": 9,
+    "id": "dim"
+  },
+  {
+    "word": "dimension",
+    "meaning": "n. 维度；尺寸；规模；方面",
+    "frequency": 4,
+    "page": 10,
+    "id": "dimension"
+  },
+  {
+    "word": "diminish",
+    "meaning": "v. 减少，缩减；贬低，轻视",
+    "frequency": 5,
+    "page": 11,
+    "id": "diminish"
+  },
+  {
+    "word": "discard",
+    "meaning": "v. 抛弃；丢弃",
+    "frequency": 4,
+    "page": 10,
+    "id": "discard"
+  },
+  {
+    "word": "discern",
+    "meaning": "v. 察觉出；分辨出",
+    "frequency": 2,
+    "page": 9,
+    "id": "discern"
+  },
+  {
+    "word": "discipline",
+    "meaning": "n. 纪律；训练方法；自制力；学科 v. 训导；惩罚；严格要求",
+    "frequency": 17,
+    "page": 10,
+    "id": "discipline"
+  },
+  {
+    "word": "disclose",
+    "meaning": "v. 泄漏；透露；揭露",
+    "frequency": 4,
+    "page": 10,
+    "id": "disclose"
+  },
+  {
+    "word": "discontent",
+    "meaning": "n. 不满，不满足，不满足的缘由 adj. 不安分的，不平的 v. 使不满意",
+    "frequency": null,
+    "page": 11,
+    "id": "discontent"
+  },
+  {
+    "word": "discreet",
+    "meaning": "adj. 谨慎的；慎重的",
+    "frequency": null,
+    "page": 11,
+    "id": "discreet"
+  },
+  {
+    "word": "discriminate",
+    "meaning": "v. 区别；歧视",
+    "frequency": 2,
+    "page": 11,
+    "id": "discriminate"
+  },
+  {
+    "word": "dishonor",
+    "meaning": "n. 耻辱, 导致耻辱的原因, 【商】(票据的)拒绝付款 v. 使丢脸，不尊重，不履行，【商】拒付",
+    "frequency": null,
+    "page": 11,
+    "id": "dishonor"
+  },
+  {
+    "word": "dismiss",
+    "meaning": "v. 不予考虑；解散；开除；驳回；不理会",
+    "frequency": 8,
+    "page": 10,
+    "id": "dismiss"
+  },
+  {
+    "word": "dispute",
+    "meaning": "n. 争论；争端，纠纷 v. 对…提出质疑；就…争论",
+    "frequency": 8,
+    "page": 10,
+    "id": "dispute"
+  },
+  {
+    "word": "disruptive",
+    "meaning": "adj. 引起混乱的，扰乱性的，破坏性的",
+    "frequency": null,
+    "page": 11,
+    "id": "disruptive"
+  },
+  {
+    "word": "distort",
+    "meaning": "v. 扭曲；使变形；曲解",
+    "frequency": 5,
+    "page": 11,
+    "id": "distort"
+  },
+  {
+    "word": "distorted",
+    "meaning": "adj. 扭曲的，变形的，受到曲解的",
+    "frequency": null,
+    "page": 11,
+    "id": "distorted"
+  },
+  {
+    "word": "distribute",
+    "meaning": "v. 分发；分配；分销；分布",
+    "frequency": 8,
+    "page": 10,
+    "id": "distribute"
+  },
+  {
+    "word": "ditch",
+    "meaning": "v. 抛弃，丢弃；迫降 n. 沟；渠",
+    "frequency": 2,
+    "page": 10,
+    "id": "ditch"
+  },
+  {
+    "word": "divert",
+    "meaning": "v. 使分心；使转向；改变用途；重新分配",
+    "frequency": 3,
+    "page": 11,
+    "id": "divert"
+  },
+  {
+    "word": "divorce",
+    "meaning": "n. 离婚；分离 v. 与…离婚；使分离",
+    "frequency": 9,
+    "page": 10,
+    "id": "divorce"
+  },
+  {
+    "word": "divorced",
+    "meaning": "adj. 离婚的，离异的，表现得不受影响的，脱离…的 v.“divorce”的过去分词和过去式",
+    "frequency": null,
+    "page": 11,
+    "id": "divorced"
+  },
+  {
+    "word": "doctrine",
+    "meaning": "n. 教义；信条；学说",
+    "frequency": 4,
+    "page": 11,
+    "id": "doctrine"
+  },
+  {
+    "word": "domain",
+    "meaning": "n. 领域；领土",
+    "frequency": 4,
+    "page": 11,
+    "id": "domain"
+  },
+  {
+    "word": "domestic",
+    "meaning": "adj. 家用的，家庭的；国内的",
+    "frequency": 13,
+    "page": 10,
+    "id": "domestic"
+  },
+  {
+    "word": "dominant",
+    "meaning": "adj. 占支配地位的；显性的",
+    "frequency": 11,
+    "page": 11,
+    "id": "dominant"
+  },
+  {
+    "word": "dominate",
+    "meaning": "v. 支配；统治；俯视",
+    "frequency": 9,
+    "page": 11,
+    "id": "dominate"
+  },
+  {
+    "word": "dose",
+    "meaning": "n. 一份，一点；剂量 v. 给…服药",
+    "frequency": 6,
+    "page": 10,
+    "id": "dose"
+  },
+  {
+    "word": "drain",
+    "meaning": "v. 排水；喝光；使耗尽 n. 下水道；消耗，流失",
+    "frequency": 4,
+    "page": 10,
+    "id": "drain"
+  },
+  {
+    "word": "dramatic",
+    "meaning": "adj. 巨大的，急剧的；戏剧性的；戏剧的；激动人心的",
+    "frequency": 12,
+    "page": 9,
+    "id": "dramatic"
+  },
+  {
+    "word": "draw on",
+    "meaning": "phrase. 利用，借鉴；接近，临近",
+    "frequency": 3,
+    "page": 10,
+    "id": "draw on"
+  },
+  {
+    "word": "dual",
+    "meaning": "adj. 双重的；双数的",
+    "frequency": 2,
+    "page": 11,
+    "id": "dual"
+  },
+  {
+    "word": "dull",
+    "meaning": "adj. 枯燥的；阴沉的；迟钝的 v. 使迟钝；失去光泽",
+    "frequency": 3,
+    "page": 10,
+    "id": "dull"
+  },
+  {
+    "word": "dumb",
+    "meaning": "adj. 笨的；哑的",
+    "frequency": 2,
+    "page": 10,
+    "id": "dumb"
+  },
+  {
+    "word": "durable",
+    "meaning": "adj. 耐用的；持久的",
+    "frequency": 7,
+    "page": 10,
+    "id": "durable"
+  },
+  {
+    "word": "dwarf",
+    "meaning": "adj. 矮小的 n. 小矮人；侏儒 v. 使显得矮小，使相形见绌",
+    "frequency": 2,
+    "page": 11,
+    "id": "dwarf"
+  },
+  {
+    "word": "dynamic",
+    "meaning": "adj. 精力充沛的；动态的 n. 动态；动力（学）；（dynamics）乐曲的力度变化",
+    "frequency": 6,
+    "page": 10,
+    "id": "dynamic"
+  },
+  {
+    "word": "effect",
+    "meaning": "n. 影响；效果；个人财物 v. 使发生，引起",
+    "frequency": 87,
+    "page": 12,
+    "id": "effect"
+  },
+  {
+    "word": "ego",
+    "meaning": "n. 自尊；自我",
+    "frequency": 2,
+    "page": 13,
+    "id": "ego"
+  },
+  {
+    "word": "elaborate",
+    "meaning": "adj. 复杂的，详尽的；精心设计的 v. 详尽阐述；精心制作",
+    "frequency": 5,
+    "page": 11,
+    "id": "elaborate"
+  },
+  {
+    "word": "elevate",
+    "meaning": "v. 提拔；使升高；举起；振奋",
+    "frequency": 3,
+    "page": 12,
+    "id": "elevate"
+  },
+  {
+    "word": "eligible",
+    "meaning": "adj. 有资格的；合格的",
+    "frequency": 4,
+    "page": 13,
+    "id": "eligible"
+  },
+  {
+    "word": "eliminate",
+    "meaning": "v. 消除；淘汰；消灭",
+    "frequency": 18,
+    "page": 12,
+    "id": "eliminate"
+  },
+  {
+    "word": "elite",
+    "meaning": "n. 上层集团；精英 adj. 精英的",
+    "frequency": 14,
+    "page": 13,
+    "id": "elite"
+  },
+  {
+    "word": "embark",
+    "meaning": "v. 上船，登机；开始从事",
+    "frequency": 2,
+    "page": 13,
+    "id": "embark"
+  },
+  {
+    "word": "embody",
+    "meaning": "v. 具体表现，体现；包含",
+    "frequency": 5,
+    "page": 13,
+    "id": "embody"
+  },
+  {
+    "word": "emerging",
+    "meaning": "adj. 新兴的 v. 出现",
+    "frequency": null,
+    "page": 13,
+    "id": "emerging"
+  },
+  {
+    "word": "eminent",
+    "meaning": "adj. 卓越的；著名的",
+    "frequency": 2,
+    "page": 13,
+    "id": "eminent"
+  },
+  {
+    "word": "empirical",
+    "meaning": "adj. 经验主义的；实证的",
+    "frequency": 2,
+    "page": 13,
+    "id": "empirical"
+  },
+  {
+    "word": "endeavor",
+    "meaning": "v. 努力，尽力 n. 努力，尝试 - =<英>endeavour",
+    "frequency": 6,
+    "page": 13,
+    "id": "endeavor"
+  },
+  {
+    "word": "enlighten",
+    "meaning": "v. 启发；教育",
+    "frequency": 3,
+    "page": 13,
+    "id": "enlighten"
+  },
+  {
+    "word": "enormous",
+    "meaning": "adj. 巨大的，庞大的",
+    "frequency": 12,
+    "page": 12,
+    "id": "enormous"
+  },
+  {
+    "word": "enroll",
+    "meaning": "v. 登记；注册；使加入 - =<英>enrol",
+    "frequency": 2,
+    "page": 13,
+    "id": "enroll"
+  },
+  {
+    "word": "enthusiasm",
+    "meaning": "n. 热情；热衷的事物",
+    "frequency": 10,
+    "page": 12,
+    "id": "enthusiasm"
+  },
+  {
+    "word": "envision",
+    "meaning": "v. 想象；设想；展望",
+    "frequency": null,
+    "page": 12,
+    "id": "envision"
+  },
+  {
+    "word": "epidemic",
+    "meaning": "n. 流行病；蔓延 adj. 泛滥的；流行的",
+    "frequency": 10,
+    "page": 13,
+    "id": "epidemic"
+  },
+  {
+    "word": "era",
+    "meaning": "n. 时代；时期；纪元",
+    "frequency": 13,
+    "page": 12,
+    "id": "era"
+  },
+  {
+    "word": "erect",
+    "meaning": "v. 建造；搭起；设立 adj. 垂直的，竖直的",
+    "frequency": 2,
+    "page": 12,
+    "id": "erect"
+  },
+  {
+    "word": "erode",
+    "meaning": "v. 侵蚀，腐蚀；削弱",
+    "frequency": 2,
+    "page": 12,
+    "id": "erode"
+  },
+  {
+    "word": "establish",
+    "meaning": "v. 建立；确立；证实",
+    "frequency": 22,
+    "page": 12,
+    "id": "establish"
+  },
+  {
+    "word": "esteem",
+    "meaning": "n. 尊敬，敬重 v. 尊敬，敬重",
+    "frequency": 6,
+    "page": 12,
+    "id": "esteem"
+  },
+  {
+    "word": "estimate",
+    "meaning": "v. 估计；估价 n. 估计；估价",
+    "frequency": 18,
+    "page": 12,
+    "id": "estimate"
+  },
+  {
+    "word": "eternal",
+    "meaning": "adj. 永恒的；无休止的",
+    "frequency": null,
+    "page": 13,
+    "id": "eternal"
+  },
+  {
+    "word": "ethic",
+    "meaning": "n. 道德规范；伦理学",
+    "frequency": 8,
+    "page": 13,
+    "id": "ethic"
+  },
+  {
+    "word": "ethical",
+    "meaning": "adj. （有关）道德的，伦理的，合乎道德的",
+    "frequency": null,
+    "page": 13,
+    "id": "ethical"
+  },
+  {
+    "word": "ethics",
+    "meaning": "n. 道德标准，道德伦理，伦理标准，伦理学",
+    "frequency": null,
+    "page": 13,
+    "id": "ethics"
+  },
+  {
+    "word": "evade",
+    "meaning": "v. 逃脱；回避；使困惑",
+    "frequency": 6,
+    "page": 13,
+    "id": "evade"
+  },
+  {
+    "word": "evaporate",
+    "meaning": "v. 蒸发；逐渐消失",
+    "frequency": 1,
+    "page": 11,
+    "id": "evaporate"
+  },
+  {
+    "word": "exaggerate",
+    "meaning": "v. 夸大，夸张",
+    "frequency": 4,
+    "page": 12,
+    "id": "exaggerate"
+  },
+  {
+    "word": "excessive",
+    "meaning": "adj. 过多的；过分的",
+    "frequency": 11,
+    "page": 12,
+    "id": "excessive"
+  },
+  {
+    "word": "exclaim",
+    "meaning": "v. 呼喊，惊叫；大声说",
+    "frequency": 1,
+    "page": 12,
+    "id": "exclaim"
+  },
+  {
+    "word": "exclude",
+    "meaning": "v. 把…排斥在外；不准…进入",
+    "frequency": 7,
+    "page": 12,
+    "id": "exclude"
+  },
+  {
+    "word": "exclusive",
+    "meaning": "adj. 独占的；排斥的；高档的 n. 独家新闻",
+    "frequency": 6,
+    "page": 13,
+    "id": "exclusive"
+  },
+  {
+    "word": "executive",
+    "meaning": "adj. 行政的；执行的；高级的 n. 主管；行政部门",
+    "frequency": 31,
+    "page": 12,
+    "id": "executive"
+  },
+  {
+    "word": "exempt",
+    "meaning": "adj. 豁免的 v. 免除，豁免",
+    "frequency": 3,
+    "page": 12,
+    "id": "exempt"
+  },
+  {
+    "word": "exert",
+    "meaning": "v. 运用；施加；尽力",
+    "frequency": 6,
+    "page": 12,
+    "id": "exert"
+  },
+  {
+    "word": "exhibit",
+    "meaning": "v. 展览；显示出 n. 展览会；展览品；证物",
+    "frequency": 8,
+    "page": 12,
+    "id": "exhibit"
+  },
+  {
+    "word": "expedition",
+    "meaning": "n. 探险；考察；探险队；短途旅行",
+    "frequency": 5,
+    "page": 13,
+    "id": "expedition"
+  },
+  {
+    "word": "explicit",
+    "meaning": "adj. 清楚的；直言的；直截了当的",
+    "frequency": 5,
+    "page": 13,
+    "id": "explicit"
+  },
+  {
+    "word": "exploit",
+    "meaning": "v. 利用；剥削；开采",
+    "frequency": 3,
+    "page": 12,
+    "id": "exploit"
+  },
+  {
+    "word": "expose",
+    "meaning": "v. 暴露；揭露；使遭受；曝光；使体验",
+    "frequency": 17,
+    "page": 12,
+    "id": "expose"
+  },
+  {
+    "word": "exposure",
+    "meaning": "n. 暴露；经历；揭露；曝光",
+    "frequency": 17,
+    "page": 12,
+    "id": "exposure"
+  },
+  {
+    "word": "extent",
+    "meaning": "n. 程度；范围",
+    "frequency": 8,
+    "page": 12,
+    "id": "extent"
+  },
+  {
+    "word": "extract",
+    "meaning": "v. 拔出；提取；摘录；设法得到 n. 提取物；摘录；引文",
+    "frequency": 2,
+    "page": 13,
+    "id": "extract"
+  },
+  {
+    "word": "facilitate",
+    "meaning": "v. 促进；使便利",
+    "frequency": 5,
+    "page": 14,
+    "id": "facilitate"
+  },
+  {
+    "word": "facility",
+    "meaning": "n. 设施；设备；天赋",
+    "frequency": 4,
+    "page": 13,
+    "id": "facility"
+  },
+  {
+    "word": "faculty",
+    "meaning": "n. 天赋；能力；全体教员；院系",
+    "frequency": 8,
+    "page": 13,
+    "id": "faculty"
+  },
+  {
+    "word": "fascinate",
+    "meaning": "v. 深深吸引，使着迷",
+    "frequency": 5,
+    "page": 14,
+    "id": "fascinate"
+  },
+  {
+    "word": "fatigue",
+    "meaning": "n. 疲惫；厌倦",
+    "frequency": 3,
+    "page": 14,
+    "id": "fatigue"
+  },
+  {
+    "word": "feasible",
+    "meaning": "adj. 可行的",
+    "frequency": 3,
+    "page": 14,
+    "id": "feasible"
+  },
+  {
+    "word": "feature",
+    "meaning": "n. 特征；特写，专题；五官 v. 以…为特色；担任主演；占重要地位",
+    "frequency": 22,
+    "page": 14,
+    "id": "feature"
+  },
+  {
+    "word": "federal",
+    "meaning": "adj. 联邦的",
+    "frequency": 78,
+    "page": 14,
+    "id": "federal"
+  },
+  {
+    "word": "fierce",
+    "meaning": "adj. 凶猛的；猛烈的；强烈的",
+    "frequency": 10,
+    "page": 14,
+    "id": "fierce"
+  },
+  {
+    "word": "finite",
+    "meaning": "adj. 有限的；限定的",
+    "frequency": 3,
+    "page": 14,
+    "id": "finite"
+  },
+  {
+    "word": "fiscal",
+    "meaning": "adj. 财政的；国库的",
+    "frequency": 4,
+    "page": 14,
+    "id": "fiscal"
+  },
+  {
+    "word": "flatter",
+    "meaning": "v. 奉承；美化；使感到荣幸",
+    "frequency": 3,
+    "page": 14,
+    "id": "flatter"
+  },
+  {
+    "word": "flaw",
+    "meaning": "n. 错误；缺点；瑕疵 v. 使…有缺陷；损害",
+    "frequency": 5,
+    "page": 14,
+    "id": "flaw"
+  },
+  {
+    "word": "flourish",
+    "meaning": "v. 繁荣；茁壮成长；挥舞 n. 夸张动作；华丽词藻",
+    "frequency": 4,
+    "page": 14,
+    "id": "flourish"
+  },
+  {
+    "word": "follow-up",
+    "meaning": "adj. 后续的 n. 后续行动，后续事物",
+    "frequency": null,
+    "page": 14,
+    "id": "follow-up"
+  },
+  {
+    "word": "foremost",
+    "meaning": "adj. 最重要的；首要的 adv. 最重要地；首先",
+    "frequency": 18,
+    "page": 14,
+    "id": "foremost"
+  },
+  {
+    "word": "formidable",
+    "meaning": "adj. 令人敬畏的；难对付的",
+    "frequency": 3,
+    "page": 14,
+    "id": "formidable"
+  },
+  {
+    "word": "formulate",
+    "meaning": "v. 制定计划；构想；阐述",
+    "frequency": 7,
+    "page": 14,
+    "id": "formulate"
+  },
+  {
+    "word": "foster",
+    "meaning": "v. 促进；鼓励；收养 adj. 收养的",
+    "frequency": 9,
+    "page": 14,
+    "id": "foster"
+  },
+  {
+    "word": "fraction",
+    "meaning": "n. 少量；分数",
+    "frequency": 3,
+    "page": 14,
+    "id": "fraction"
+  },
+  {
+    "word": "fragile",
+    "meaning": "adj. 易碎的；脆弱的，虚弱的",
+    "frequency": 5,
+    "page": 13,
+    "id": "fragile"
+  },
+  {
+    "word": "fraud",
+    "meaning": "n. 欺诈罪；骗子；冒牌货",
+    "frequency": 2,
+    "page": 14,
+    "id": "fraud"
+  },
+  {
+    "word": "function",
+    "meaning": "n. 功能；函数；宴会 v. 起作用，运转",
+    "frequency": 30,
+    "page": 14,
+    "id": "function"
+  },
+  {
+    "word": "fundamental",
+    "meaning": "adj. 基础的；根本的；主要的；至关重要的 n. 基础",
+    "frequency": 20,
+    "page": 14,
+    "id": "fundamental"
+  },
+  {
+    "word": "fuss",
+    "meaning": "v. （为小事）烦恼；过分讲究 n. 大惊小怪；瞎操心",
+    "frequency": 1,
+    "page": 14,
+    "id": "fuss"
+  },
+  {
+    "word": "gamble",
+    "meaning": "v. 赌博；冒风险；以…为赌注 n. 赌博；冒险",
+    "frequency": 7,
+    "page": 15,
+    "id": "gamble"
+  },
+  {
+    "word": "gender",
+    "meaning": "n. 性别",
+    "frequency": 19,
+    "page": 15,
+    "id": "gender"
+  },
+  {
+    "word": "generate",
+    "meaning": "v. 生成，产生（能量）；引起",
+    "frequency": 18,
+    "page": 14,
+    "id": "generate"
+  },
+  {
+    "word": "genre",
+    "meaning": "n. （文学、艺术作品的）体裁，类型",
+    "frequency": 2,
+    "page": 15,
+    "id": "genre"
+  },
+  {
+    "word": "geometry",
+    "meaning": "n. 几何学；几何形状",
+    "frequency": 2,
+    "page": 14,
+    "id": "geometry"
+  },
+  {
+    "word": "gloomy",
+    "meaning": "adj. 昏暗的；沮丧的；前景黯淡的",
+    "frequency": 2,
+    "page": 15,
+    "id": "gloomy"
+  },
+  {
+    "word": "go in for",
+    "meaning": "phrase. 支持，赞成，主张；喜欢，爱好某种业余活动；从事某种职业或活动",
+    "frequency": null,
+    "page": 15,
+    "id": "go in for"
+  },
+  {
+    "word": "grant",
+    "meaning": "v. 同意；给予；承认 n. 拨款，补助金 phrase. （take for granted）认为…是理所当然",
+    "frequency": 16,
+    "page": 15,
+    "id": "grant"
+  },
+  {
+    "word": "gross",
+    "meaning": "adj. 总的，粗略的；严重的；令人恶心的 n. （电影）总收入 v. 总收入为",
+    "frequency": 2,
+    "page": 15,
+    "id": "gross"
+  },
+  {
+    "word": "guilty",
+    "meaning": "adj. 犯罪的，有罪责的；使感到内疚的",
+    "frequency": 9,
+    "page": 15,
+    "id": "guilty"
+  },
+  {
+    "word": "gut",
+    "meaning": "n. 直觉；内脏；勇气 adj. 本能的，直觉的 v. 毁坏房屋内部；取出…的内脏",
+    "frequency": 2,
+    "page": 15,
+    "id": "gut"
+  },
+  {
+    "word": "hail",
+    "meaning": "v. 赞扬；招手（叫出租车）；下冰雹；出生于 n. 冰雹；一阵",
+    "frequency": 3,
+    "page": 15,
+    "id": "hail"
+  },
+  {
+    "word": "hamper",
+    "meaning": "v. 妨碍，阻碍 n. 带盖大篮子",
+    "frequency": 3,
+    "page": 15,
+    "id": "hamper"
+  },
+  {
+    "word": "hardship",
+    "meaning": "n. 艰难，困苦",
+    "frequency": 4,
+    "page": 15,
+    "id": "hardship"
+  },
+  {
+    "word": "harsh",
+    "meaning": "adj. 残酷的；严厉的；刺耳的；恶劣的",
+    "frequency": 7,
+    "page": 15,
+    "id": "harsh"
+  },
+  {
+    "word": "hazard",
+    "meaning": "n. 危险，危害，隐患 v. 大胆提出或猜测；使…冒风险",
+    "frequency": 4,
+    "page": 15,
+    "id": "hazard"
+  },
+  {
+    "word": "headquarters",
+    "meaning": "n. 司令部，指挥部；总部",
+    "frequency": 2,
+    "page": 15,
+    "id": "headquarters"
+  },
+  {
+    "word": "hinder",
+    "meaning": "v. 阻碍，妨碍",
+    "frequency": 4,
+    "page": 15,
+    "id": "hinder"
+  },
+  {
+    "word": "hint",
+    "meaning": "n. 暗示，提示；迹象；少许；建议 v. 暗示，示意",
+    "frequency": 4,
+    "page": 15,
+    "id": "hint"
+  },
+  {
+    "word": "hitherto",
+    "meaning": "adv. 到目前为止，迄今",
+    "frequency": 4,
+    "page": 15,
+    "id": "hitherto"
+  },
+  {
+    "word": "hook",
+    "meaning": "n. 钩，挂钩，鱼钩；勾拳；诱饵 v. 钩住；钓（鱼）；吸引",
+    "frequency": 4,
+    "page": 15,
+    "id": "hook"
+  },
+  {
+    "word": "hostility",
+    "meaning": "n. 敌意，对抗，（对思想、计划或情形的）愤怒反对，战争行为",
+    "frequency": null,
+    "page": 15,
+    "id": "hostility"
+  },
+  {
+    "word": "hygiene",
+    "meaning": "n. 卫生，保健",
+    "frequency": 3,
+    "page": 15,
+    "id": "hygiene"
+  },
+  {
+    "word": "hypocrisy",
+    "meaning": "n. 伪善，虚伪",
+    "frequency": 1,
+    "page": 15,
+    "id": "hypocrisy"
+  },
+  {
+    "word": "hypothesis",
+    "meaning": "n. 假设，假说；猜测",
+    "frequency": 3,
+    "page": 15,
+    "id": "hypothesis"
+  },
+  {
+    "word": "identical",
+    "meaning": "adj. 完全相同的",
+    "frequency": 2,
+    "page": 16,
+    "id": "identical"
+  },
+  {
+    "word": "ignorant",
+    "meaning": "adj. 无知的，愚昧的；无礼的",
+    "frequency": 6,
+    "page": 16,
+    "id": "ignorant"
+  },
+  {
+    "word": "imitate",
+    "meaning": "v. 模仿，仿效；仿造",
+    "frequency": 6,
+    "page": 16,
+    "id": "imitate"
+  },
+  {
+    "word": "imitation",
+    "meaning": "n. 模仿；仿制品；滑稽模仿",
+    "frequency": 4,
+    "page": 17,
+    "id": "imitation"
+  },
+  {
+    "word": "immigrant",
+    "meaning": "n. 移民，侨民",
+    "frequency": 17,
+    "page": 16,
+    "id": "immigrant"
+  },
+  {
+    "word": "immune",
+    "meaning": "adj. 免疫的；不受影响的；受保护的；豁免的",
+    "frequency": 8,
+    "page": 18,
+    "id": "immune"
+  },
+  {
+    "word": "impetus",
+    "meaning": "n. 动力，促进，刺激",
+    "frequency": 3,
+    "page": 18,
+    "id": "impetus"
+  },
+  {
+    "word": "implement",
+    "meaning": "v. 使生效，贯彻，履行 n. 工具，器具",
+    "frequency": 7,
+    "page": 17,
+    "id": "implement"
+  },
+  {
+    "word": "implication",
+    "meaning": "n. 可能的影响；暗示，含意，含义；涉及",
+    "frequency": 10,
+    "page": 16,
+    "id": "implication"
+  },
+  {
+    "word": "implicit",
+    "meaning": "adj. 含蓄的；内含的；绝对的",
+    "frequency": 6,
+    "page": 18,
+    "id": "implicit"
+  },
+  {
+    "word": "imply",
+    "meaning": "v. 暗示，暗指；意味着，表明",
+    "frequency": 12,
+    "page": 16,
+    "id": "imply"
+  },
+  {
+    "word": "impose",
+    "meaning": "v. 强制实行；把…强加于；使承受",
+    "frequency": 16,
+    "page": 16,
+    "id": "impose"
+  },
+  {
+    "word": "in case",
+    "meaning": "phrase. 免得，以防，以防万一；假使；也许，说不定",
+    "frequency": null,
+    "page": 16,
+    "id": "in case"
+  },
+  {
+    "word": "in contrast",
+    "meaning": "phrase. 相反；相比之下",
+    "frequency": 1,
+    "page": 18,
+    "id": "in contrast"
+  },
+  {
+    "word": "inadequate",
+    "meaning": "adj. 不充分的，不足的；不够好的；缺乏信心的",
+    "frequency": null,
+    "page": 17,
+    "id": "inadequate"
+  },
+  {
+    "word": "incentive",
+    "meaning": "n. 激励，刺激；动机；让利",
+    "frequency": 11,
+    "page": 16,
+    "id": "incentive"
+  },
+  {
+    "word": "incorporate",
+    "meaning": "v. 包含，合并；使组成公司",
+    "frequency": 4,
+    "page": 17,
+    "id": "incorporate"
+  },
+  {
+    "word": "incur",
+    "meaning": "v. 招致，遭受；带来",
+    "frequency": 3,
+    "page": 18,
+    "id": "incur"
+  },
+  {
+    "word": "indicate",
+    "meaning": "v. 表明，暗示；指出；象征",
+    "frequency": 12,
+    "page": 16,
+    "id": "indicate"
+  },
+  {
+    "word": "indispensable",
+    "meaning": "adj. 不可或缺的",
+    "frequency": 7,
+    "page": 16,
+    "id": "indispensable"
+  },
+  {
+    "word": "indulge",
+    "meaning": "v. 沉溺于；纵容；满足",
+    "frequency": 3,
+    "page": 17,
+    "id": "indulge"
+  },
+  {
+    "word": "inevitable",
+    "meaning": "adj. 必然发生的，不可避免的",
+    "frequency": 19,
+    "page": 16,
+    "id": "inevitable"
+  },
+  {
+    "word": "infant",
+    "meaning": "n. 幼儿，婴儿；四到七岁的学童 adj. 供婴儿用的；初期的",
+    "frequency": 10,
+    "page": 16,
+    "id": "infant"
+  },
+  {
+    "word": "infectious",
+    "meaning": "adj. 传染的；有感染力的",
+    "frequency": 1,
+    "page": 17,
+    "id": "infectious"
+  },
+  {
+    "word": "inference",
+    "meaning": "n. 推理；推断的结论",
+    "frequency": 3,
+    "page": 17,
+    "id": "inference"
+  },
+  {
+    "word": "infinite",
+    "meaning": "adj. 无限的，无穷的；极大的",
+    "frequency": 3,
+    "page": 16,
+    "id": "infinite"
+  },
+  {
+    "word": "inflation",
+    "meaning": "n. 通货膨胀；充气",
+    "frequency": 19,
+    "page": 17,
+    "id": "inflation"
+  },
+  {
+    "word": "infrastructure",
+    "meaning": "n. 基础建设，基础设施",
+    "frequency": 26,
+    "page": 16,
+    "id": "infrastructure"
+  },
+  {
+    "word": "ingredient",
+    "meaning": "n. 成分；原料；因素",
+    "frequency": 4,
+    "page": 17,
+    "id": "ingredient"
+  },
+  {
+    "word": "inherent",
+    "meaning": "adj. 内在的，固有的，本性的",
+    "frequency": 7,
+    "page": 17,
+    "id": "inherent"
+  },
+  {
+    "word": "initial",
+    "meaning": "adj. 最初的，开始的 n. 姓名首字母 v. 用首字母签名",
+    "frequency": 8,
+    "page": 16,
+    "id": "initial"
+  },
+  {
+    "word": "initiate",
+    "meaning": "v. 开始；使了解；使加入 n. 新加入者",
+    "frequency": 2,
+    "page": 17,
+    "id": "initiate"
+  },
+  {
+    "word": "initiative",
+    "meaning": "n. 倡议；计划；主动性；主动权",
+    "frequency": 11,
+    "page": 17,
+    "id": "initiative"
+  },
+  {
+    "word": "inject",
+    "meaning": "v. 注射；增加；使充满；插入",
+    "frequency": 2,
+    "page": 17,
+    "id": "inject"
+  },
+  {
+    "word": "innocent",
+    "meaning": "adj. 无恶意的；清白的；天真的 n. 无辜的人",
+    "frequency": 6,
+    "page": 16,
+    "id": "innocent"
+  },
+  {
+    "word": "innovation",
+    "meaning": "n. 革新；新方法，新产品",
+    "frequency": 36,
+    "page": 17,
+    "id": "innovation"
+  },
+  {
+    "word": "inquire",
+    "meaning": "v. 询问，打听 - =<英>enquire",
+    "frequency": null,
+    "page": 16,
+    "id": "inquire"
+  },
+  {
+    "word": "inspect",
+    "meaning": "v. 检查，审视；视察，检阅",
+    "frequency": 2,
+    "page": 16,
+    "id": "inspect"
+  },
+  {
+    "word": "instance",
+    "meaning": "n. 事例，例子 v. 举…为例",
+    "frequency": 16,
+    "page": 16,
+    "id": "instance"
+  },
+  {
+    "word": "instinct",
+    "meaning": "n. 直觉，本能，天性",
+    "frequency": 6,
+    "page": 16,
+    "id": "instinct"
+  },
+  {
+    "word": "institute",
+    "meaning": "n. 协会，机构，研究所 v. 建立，制定",
+    "frequency": 15,
+    "page": 16,
+    "id": "institute"
+  },
+  {
+    "word": "insufficient",
+    "meaning": "adj. 不充分的，不足的，不够重要的",
+    "frequency": null,
+    "page": 17,
+    "id": "insufficient"
+  },
+  {
+    "word": "insurance",
+    "meaning": "n. 保险；保险业；保险费；预防措施",
+    "frequency": 23,
+    "page": 17,
+    "id": "insurance"
+  },
+  {
+    "word": "integral",
+    "meaning": "adj. 必需的，不可或缺的；作为组成部分的；完整的",
+    "frequency": 2,
+    "page": 18,
+    "id": "integral"
+  },
+  {
+    "word": "integrity",
+    "meaning": "n. 正直，诚实；完整，完好",
+    "frequency": 12,
+    "page": 18,
+    "id": "integrity"
+  },
+  {
+    "word": "intense",
+    "meaning": "adj. 强烈的，剧烈的；热情的",
+    "frequency": 10,
+    "page": 17,
+    "id": "intense"
+  },
+  {
+    "word": "intensive",
+    "meaning": "adj. 密集的，强化的；集约的",
+    "frequency": 5,
+    "page": 17,
+    "id": "intensive"
+  },
+  {
+    "word": "interact",
+    "meaning": "v. 相互沟通；相互作用",
+    "frequency": 12,
+    "page": 18,
+    "id": "interact"
+  },
+  {
+    "word": "interfere",
+    "meaning": "v. 干涉，介入；干扰，妨碍",
+    "frequency": 7,
+    "page": 17,
+    "id": "interfere"
+  },
+  {
+    "word": "interim",
+    "meaning": "n. 过渡期，中间期 adj. 暂时的，过渡的；期中的",
+    "frequency": 2,
+    "page": 18,
+    "id": "interim"
+  },
+  {
+    "word": "interpret",
+    "meaning": "v. 解释，说明；口译",
+    "frequency": 21,
+    "page": 17,
+    "id": "interpret"
+  },
+  {
+    "word": "interrupt",
+    "meaning": "v. 插嘴，打断；使中断；遮挡",
+    "frequency": 1,
+    "page": 16,
+    "id": "interrupt"
+  },
+  {
+    "word": "intervene",
+    "meaning": "v. 干预；打断；阻碍；介于…之间",
+    "frequency": 4,
+    "page": 18,
+    "id": "intervene"
+  },
+  {
+    "word": "intricate",
+    "meaning": "adj. 错综复杂的",
+    "frequency": 2,
+    "page": 18,
+    "id": "intricate"
+  },
+  {
+    "word": "intrinsic",
+    "meaning": "adj. 内在的，本质的，固有的",
+    "frequency": 3,
+    "page": 16,
+    "id": "intrinsic"
+  },
+  {
+    "word": "invaluable",
+    "meaning": "adj. 非常宝贵的，无价的",
+    "frequency": null,
+    "page": 18,
+    "id": "invaluable"
+  },
+  {
+    "word": "inventory",
+    "meaning": "n. 库存；存货清单",
+    "frequency": 2,
+    "page": 18,
+    "id": "inventory"
+  },
+  {
+    "word": "investigate",
+    "meaning": "v. 调查，侦查，研究",
+    "frequency": 5,
+    "page": 17,
+    "id": "investigate"
+  },
+  {
+    "word": "investigation",
+    "meaning": "n. 调查；科学研究，学术研究",
+    "frequency": null,
+    "page": 17,
+    "id": "investigation"
+  },
+  {
+    "word": "involve",
+    "meaning": "v. 包含，需要；牵涉；使参与",
+    "frequency": 49,
+    "page": 17,
+    "id": "involve"
+  },
+  {
+    "word": "irrational",
+    "meaning": "adj. 不理性的，没有道理的；不合逻辑的 n. 无理数，无理性的生物",
+    "frequency": null,
+    "page": 18,
+    "id": "irrational"
+  },
+  {
+    "word": "irrelevant",
+    "meaning": "adj. 无关紧要的，不相关的",
+    "frequency": null,
+    "page": 18,
+    "id": "irrelevant"
+  },
+  {
+    "word": "issue",
+    "meaning": "n. 议题；问题；（书刊等）期，号 v. 宣布；发给；出版；发行",
+    "frequency": 66,
+    "page": 17,
+    "id": "issue"
+  },
+  {
+    "word": "journal",
+    "meaning": "n. 期刊，报纸；日记，日志",
+    "frequency": 42,
+    "page": 18,
+    "id": "journal"
+  },
+  {
+    "word": "judge",
+    "meaning": "v. 评价；判断；审理；担任裁判；估计 n. 法官；裁判员；鉴赏家",
+    "frequency": 25,
+    "page": 18,
+    "id": "judge"
+  },
+  {
+    "word": "jurisdiction",
+    "meaning": "n. 管辖权，司法权；管辖范围",
+    "frequency": 3,
+    "page": 18,
+    "id": "jurisdiction"
+  },
+  {
+    "word": "jury",
+    "meaning": "n. 陪审团；裁判委员会",
+    "frequency": 15,
+    "page": 18,
+    "id": "jury"
+  },
+  {
+    "word": "justice",
+    "meaning": "n. 公正，公平；法官；司法",
+    "frequency": 29,
+    "page": 18,
+    "id": "justice"
+  },
+  {
+    "word": "lag",
+    "meaning": "v. 落后，滞后，缓慢移动 n. 间隔；时间差",
+    "frequency": 4,
+    "page": 18,
+    "id": "lag"
+  },
+  {
+    "word": "layer",
+    "meaning": "n. 层；层级 v. 把…分层放置",
+    "frequency": 8,
+    "page": 18,
+    "id": "layer"
+  },
+  {
+    "word": "leak",
+    "meaning": "v. 渗漏；泄露 n. 漏洞，漏隙；泄漏",
+    "frequency": 3,
+    "page": 18,
+    "id": "leak"
+  },
+  {
+    "word": "lean",
+    "meaning": "v. 倾斜身体；使斜靠；倚靠 adj. 瘦且健康的；脂肪少的；贫乏的；高效的",
+    "frequency": 7,
+    "page": 18,
+    "id": "lean"
+  },
+  {
+    "word": "legislation",
+    "meaning": "n. 立法；法律，法规",
+    "frequency": 20,
+    "page": 19,
+    "id": "legislation"
+  },
+  {
+    "word": "legitimate",
+    "meaning": "adj. 合法的，正当的 v. 使合法化，使合理化",
+    "frequency": 12,
+    "page": 19,
+    "id": "legitimate"
+  },
+  {
+    "word": "liability",
+    "meaning": "n. 责任；义务；债务",
+    "frequency": 8,
+    "page": 19,
+    "id": "liability"
+  },
+  {
+    "word": "liable",
+    "meaning": "adj. 可能做…的；负有法律责任的；易遭受…",
+    "frequency": 4,
+    "page": 19,
+    "id": "liable"
+  },
+  {
+    "word": "liberal",
+    "meaning": "adj. 思想开明的；自由的；人文教育的；慷慨的 n. 思想开明的人；自由主义者；自由党成员",
+    "frequency": 17,
+    "page": 19,
+    "id": "liberal"
+  },
+  {
+    "word": "limb",
+    "meaning": "n. 肢体；树枝",
+    "frequency": 3,
+    "page": 19,
+    "id": "limb"
+  },
+  {
+    "word": "linguistic",
+    "meaning": "adj. 语言学的；语言的",
+    "frequency": 4,
+    "page": 19,
+    "id": "linguistic"
+  },
+  {
+    "word": "litter",
+    "meaning": "n. 垃圾；杂物；一窝（幼崽） v. 乱扔；使遍布",
+    "frequency": 2,
+    "page": 19,
+    "id": "litter"
+  },
+  {
+    "word": "lobby",
+    "meaning": "n. 门厅；游说团体；游说 v. 游说",
+    "frequency": 9,
+    "page": 19,
+    "id": "lobby"
+  },
+  {
+    "word": "loom",
+    "meaning": "v. 隐约出现；逐渐逼近 n. 织布机；隐隐显现",
+    "frequency": 4,
+    "page": 19,
+    "id": "loom"
+  },
+  {
+    "word": "lord",
+    "meaning": "n. 贵族；男爵；阁下；上帝",
+    "frequency": 5,
+    "page": 19,
+    "id": "lord"
+  },
+  {
+    "word": "loyal",
+    "meaning": "adj. 忠诚的，忠贞的",
+    "frequency": 5,
+    "page": 19,
+    "id": "loyal"
+  },
+  {
+    "word": "lure",
+    "meaning": "n. 诱惑力，魅力；诱饵 v. 引诱，诱惑",
+    "frequency": 7,
+    "page": 19,
+    "id": "lure"
+  },
+  {
+    "word": "magnify",
+    "meaning": "v. 放大；使加重；夸大",
+    "frequency": 2,
+    "page": 20,
+    "id": "magnify"
+  },
+  {
+    "word": "mandate",
+    "meaning": "n. 授权；授权令，命令；任期 v. 强制执行；授权",
+    "frequency": 4,
+    "page": 20,
+    "id": "mandate"
+  },
+  {
+    "word": "manifest",
+    "meaning": "v. 表明，显现 adj. 明显的 n. 货单；旅客名单",
+    "frequency": 4,
+    "page": 19,
+    "id": "manifest"
+  },
+  {
+    "word": "manipulate",
+    "meaning": "v. 操纵；修改",
+    "frequency": 3,
+    "page": 19,
+    "id": "manipulate"
+  },
+  {
+    "word": "manual",
+    "meaning": "adj. 手工的，体力的；手动操作的 n. 使用手册",
+    "frequency": 3,
+    "page": 19,
+    "id": "manual"
+  },
+  {
+    "word": "manufacture",
+    "meaning": "v. 制造，生产；编造 n. 工业品；制造",
+    "frequency": 9,
+    "page": 19,
+    "id": "manufacture"
+  },
+  {
+    "word": "margin",
+    "meaning": "n. 差额；利润；余地；页面的空白边；边缘",
+    "frequency": 7,
+    "page": 19,
+    "id": "margin"
+  },
+  {
+    "word": "marine",
+    "meaning": "adj. 海洋的；海军的；海运的 n. 海军陆战队士兵",
+    "frequency": 5,
+    "page": 19,
+    "id": "marine"
+  },
+  {
+    "word": "massacre",
+    "meaning": "n. 大屠杀 v. 屠杀",
+    "frequency": 2,
+    "page": 20,
+    "id": "massacre"
+  },
+  {
+    "word": "massive",
+    "meaning": "adj. 巨大的；大而重的；非常严重的",
+    "frequency": 14,
+    "page": 20,
+    "id": "massive"
+  },
+  {
+    "word": "meanwhile",
+    "meaning": "adv. 与此同时",
+    "frequency": null,
+    "page": 19,
+    "id": "meanwhile"
+  },
+  {
+    "word": "merit",
+    "meaning": "n. 优点，功绩，长处 v. 值得，应得",
+    "frequency": 4,
+    "page": 19,
+    "id": "merit"
+  },
+  {
+    "word": "metaphor",
+    "meaning": "n. 隐喻",
+    "frequency": 1,
+    "page": 20,
+    "id": "metaphor"
+  },
+  {
+    "word": "migrate",
+    "meaning": "v. 迁徙，移居；转移",
+    "frequency": 2,
+    "page": 20,
+    "id": "migrate"
+  },
+  {
+    "word": "military",
+    "meaning": "adj. 军事的，军队的，军用的 n. 军队，军方，军人",
+    "frequency": 10,
+    "page": 19,
+    "id": "military"
+  },
+  {
+    "word": "mill",
+    "meaning": "n. 磨粉机；磨坊，工厂；作坊 v. 把…磨成粉，碾碎",
+    "frequency": 3,
+    "page": 19,
+    "id": "mill"
+  },
+  {
+    "word": "misconduct",
+    "meaning": "n. 行为不端，失职，处理不当，管理不善 v. 办错，不规矩，与…通奸",
+    "frequency": null,
+    "page": 20,
+    "id": "misconduct"
+  },
+  {
+    "word": "miserable",
+    "meaning": "adj. 痛苦的；不友善的；可怜的",
+    "frequency": 3,
+    "page": 20,
+    "id": "miserable"
+  },
+  {
+    "word": "misinterpret",
+    "meaning": "v. 误解，误释",
+    "frequency": null,
+    "page": 20,
+    "id": "misinterpret"
+  },
+  {
+    "word": "moderate",
+    "meaning": "adj. 温和的；适度的；合理的 v. 缓和，使适中；主持",
+    "frequency": 5,
+    "page": 20,
+    "id": "moderate"
+  },
+  {
+    "word": "modest",
+    "meaning": "adj. 谦虚的；朴素的；适度的",
+    "frequency": 8,
+    "page": 20,
+    "id": "modest"
+  },
+  {
+    "word": "modify",
+    "meaning": "v. 调整，修改；修饰",
+    "frequency": 6,
+    "page": 20,
+    "id": "modify"
+  },
+  {
+    "word": "momentum",
+    "meaning": "n. 动力，势头；动量；冲力",
+    "frequency": 6,
+    "page": 20,
+    "id": "momentum"
+  },
+  {
+    "word": "monetary",
+    "meaning": "adj. 金融的，货币的",
+    "frequency": 6,
+    "page": 20,
+    "id": "monetary"
+  },
+  {
+    "word": "monopoly",
+    "meaning": "n. 垄断；垄断企业；独占",
+    "frequency": 7,
+    "page": 20,
+    "id": "monopoly"
+  },
+  {
+    "word": "moral",
+    "meaning": "adj. 道德的；有道德观念的 n. 道德，品行；寓意",
+    "frequency": 36,
+    "page": 20,
+    "id": "moral"
+  },
+  {
+    "word": "motive",
+    "meaning": "n. 动机，缘由 adj. 引起运动的，提供动力的",
+    "frequency": 7,
+    "page": 20,
+    "id": "motive"
+  },
+  {
+    "word": "mutual",
+    "meaning": "adj. 共同的，共有的；相互的",
+    "frequency": 10,
+    "page": 19,
+    "id": "mutual"
+  },
+  {
+    "word": "narrative",
+    "meaning": "n. 叙事；记叙，叙述 adj. 叙述的",
+    "frequency": 6,
+    "page": 20,
+    "id": "narrative"
+  },
+  {
+    "word": "nasty",
+    "meaning": "adj. 下流的；恼人的；严重的；糟糕的",
+    "frequency": 6,
+    "page": 20,
+    "id": "nasty"
+  },
+  {
+    "word": "navigation",
+    "meaning": "n. 航行；导航，领航",
+    "frequency": 2,
+    "page": 20,
+    "id": "navigation"
+  },
+  {
+    "word": "negotiate",
+    "meaning": "v. 谈判，洽谈；商定；通过",
+    "frequency": 8,
+    "page": 20,
+    "id": "negotiate"
+  },
+  {
+    "word": "noble",
+    "meaning": "adj. 高尚的；贵族的；高贵的；壮丽的 n. 贵族",
+    "frequency": 4,
+    "page": 20,
+    "id": "noble"
+  },
+  {
+    "word": "norm",
+    "meaning": "n. 常态；规范，准则；平均水平",
+    "frequency": 12,
+    "page": 20,
+    "id": "norm"
+  },
+  {
+    "word": "objection",
+    "meaning": "n. 反对；反对的理由",
+    "frequency": 6,
+    "page": 21,
+    "id": "objection"
+  },
+  {
+    "word": "obligation",
+    "meaning": "n. 义务，责任；承诺",
+    "frequency": 3,
+    "page": 21,
+    "id": "obligation"
+  },
+  {
+    "word": "oblige",
+    "meaning": "v. 强迫；照办；帮忙；感激",
+    "frequency": 3,
+    "page": 21,
+    "id": "oblige"
+  },
+  {
+    "word": "obscure",
+    "meaning": "adj. 模糊的；无名的；费解的 v. 掩盖，使模糊，使费解",
+    "frequency": 8,
+    "page": 21,
+    "id": "obscure"
+  },
+  {
+    "word": "obsession",
+    "meaning": "n. 痴迷，着魔；使人痴迷的人或物",
+    "frequency": 4,
+    "page": 21,
+    "id": "obsession"
+  },
+  {
+    "word": "obsolete",
+    "meaning": "adj. 已过时的，废弃的",
+    "frequency": 2,
+    "page": 21,
+    "id": "obsolete"
+  },
+  {
+    "word": "obstruct",
+    "meaning": "v. 阻挡，阻塞；妨碍",
+    "frequency": 1,
+    "page": 21,
+    "id": "obstruct"
+  },
+  {
+    "word": "obtain",
+    "meaning": "v. 得到；流行，存在",
+    "frequency": 25,
+    "page": 21,
+    "id": "obtain"
+  },
+  {
+    "word": "occasion",
+    "meaning": "n. 时机；机会；理由；事件；场合",
+    "frequency": 2,
+    "page": 21,
+    "id": "occasion"
+  },
+  {
+    "word": "ornament",
+    "meaning": "n. 装饰品；首饰；增添光彩的品质 v. 装饰，美化",
+    "frequency": 1,
+    "page": 21,
+    "id": "ornament"
+  },
+  {
+    "word": "outlet",
+    "meaning": "n. 出口；发泄途径；经销店；机构；插座",
+    "frequency": 5,
+    "page": 21,
+    "id": "outlet"
+  },
+  {
+    "word": "outline",
+    "meaning": "n. 提纲，梗概；轮廓，外形 v. 概述，概括；勾勒",
+    "frequency": 7,
+    "page": 20,
+    "id": "outline"
+  },
+  {
+    "word": "outrage",
+    "meaning": "n. 愤怒，愤慨；暴行 v. 激怒，激起…的义愤",
+    "frequency": 3,
+    "page": 21,
+    "id": "outrage"
+  },
+  {
+    "word": "oval",
+    "meaning": "adj. 椭圆形的 n. 椭圆形，椭圆形物体",
+    "frequency": 2,
+    "page": 21,
+    "id": "oval"
+  },
+  {
+    "word": "overhaul",
+    "meaning": "v. 彻底检修；赶上 n. 彻底检修；改革",
+    "frequency": 1,
+    "page": 21,
+    "id": "overhaul"
+  },
+  {
+    "word": "paddle",
+    "meaning": "n. 船桨；（机具的）桨叶 v. 用桨划；蹚水",
+    "frequency": 2,
+    "page": 21,
+    "id": "paddle"
+  },
+  {
+    "word": "panel",
+    "meaning": "n. 专题讨论小组；陪审团；镶板；仪表板 v. 镶嵌",
+    "frequency": 16,
+    "page": 21,
+    "id": "panel"
+  },
+  {
+    "word": "panic",
+    "meaning": "v. 使惊慌 n. 惊恐；恐慌局面",
+    "frequency": 7,
+    "page": 23,
+    "id": "panic"
+  },
+  {
+    "word": "panorama",
+    "meaning": "n. 全景；综述；全貌",
+    "frequency": 1,
+    "page": 24,
+    "id": "panorama"
+  },
+  {
+    "word": "paradox",
+    "meaning": "n. 悖论；矛盾的人或事物",
+    "frequency": 6,
+    "page": 24,
+    "id": "paradox"
+  },
+  {
+    "word": "parallel",
+    "meaning": "adj. 平行的；同时发生的；相似的 v. 与…同时发生；与…相似；与…相当 n. 极其相似的人（或情况等）；相似之处",
+    "frequency": 9,
+    "page": 21,
+    "id": "parallel"
+  },
+  {
+    "word": "parameter",
+    "meaning": "n. 参数；界限；范围",
+    "frequency": 1,
+    "page": 21,
+    "id": "parameter"
+  },
+  {
+    "word": "patch",
+    "meaning": "n. 小块；补丁；眼罩 v. 打补丁",
+    "frequency": 2,
+    "page": 21,
+    "id": "patch"
+  },
+  {
+    "word": "patent",
+    "meaning": "n. 专利 adj. 有专利的；显然的 v. 获得专利",
+    "frequency": 41,
+    "page": 23,
+    "id": "patent"
+  },
+  {
+    "word": "pattern",
+    "meaning": "n. 模式；典范；图案；样板 v. 仿造；使形成（某种模式）",
+    "frequency": 37,
+    "page": 22,
+    "id": "pattern"
+  },
+  {
+    "word": "pave",
+    "meaning": "v. 铺路；为…做准备",
+    "frequency": 4,
+    "page": 22,
+    "id": "pave"
+  },
+  {
+    "word": "peculiar",
+    "meaning": "adj. 古怪的；独特的",
+    "frequency": 8,
+    "page": 22,
+    "id": "peculiar"
+  },
+  {
+    "word": "pedal",
+    "meaning": "n. 踏板 v. 踩踏板；骑自行车",
+    "frequency": 1,
+    "page": 23,
+    "id": "pedal"
+  },
+  {
+    "word": "penalty",
+    "meaning": "n. 处罚；判罚犯规；点球",
+    "frequency": 6,
+    "page": 23,
+    "id": "penalty"
+  },
+  {
+    "word": "peninsula",
+    "meaning": "n. 半岛",
+    "frequency": 3,
+    "page": 22,
+    "id": "peninsula"
+  },
+  {
+    "word": "pension",
+    "meaning": "n. 养老金；抚恤金",
+    "frequency": 2,
+    "page": 22,
+    "id": "pension"
+  },
+  {
+    "word": "perceive",
+    "meaning": "v. 意识到；察觉；将…视为，理解",
+    "frequency": 20,
+    "page": 22,
+    "id": "perceive"
+  },
+  {
+    "word": "permanent",
+    "meaning": "adj. 永久的，持久的",
+    "frequency": 10,
+    "page": 22,
+    "id": "permanent"
+  },
+  {
+    "word": "permission",
+    "meaning": "n. 批准；许可证",
+    "frequency": 11,
+    "page": 22,
+    "id": "permission"
+  },
+  {
+    "word": "perpetual",
+    "meaning": "adj. 不间断的；永久的",
+    "frequency": 2,
+    "page": 23,
+    "id": "perpetual"
+  },
+  {
+    "word": "perplex",
+    "meaning": "v. 迷惑，使困惑",
+    "frequency": 1,
+    "page": 21,
+    "id": "perplex"
+  },
+  {
+    "word": "perspective",
+    "meaning": "n. 视角；观点；判断力；透视法",
+    "frequency": 25,
+    "page": 22,
+    "id": "perspective"
+  },
+  {
+    "word": "persuasion",
+    "meaning": "n. 说服；信仰",
+    "frequency": 2,
+    "page": 23,
+    "id": "persuasion"
+  },
+  {
+    "word": "petition",
+    "meaning": "n. 请愿书；祈求 v. 请愿；（向法庭）申请",
+    "frequency": 2,
+    "page": 23,
+    "id": "petition"
+  },
+  {
+    "word": "pile",
+    "meaning": "n. 摞，沓；大量 v. 堆放；放置；蜂拥",
+    "frequency": 2,
+    "page": 22,
+    "id": "pile"
+  },
+  {
+    "word": "pitch",
+    "meaning": "n. 球场；音高；投球；沥青 v. 投球；颠簸；推销，争取支持；定音高",
+    "frequency": 1,
+    "page": 21,
+    "id": "pitch"
+  },
+  {
+    "word": "plaster",
+    "meaning": "n. 灰泥；熟石灰；膏药 v. 张贴；涂抹",
+    "frequency": 1,
+    "page": 22,
+    "id": "plaster"
+  },
+  {
+    "word": "plateau",
+    "meaning": "n. 高原；稳定期 v. 到达平稳阶段",
+    "frequency": 2,
+    "page": 23,
+    "id": "plateau"
+  },
+  {
+    "word": "pledge",
+    "meaning": "v. 保证；抵押 n. 保证；抵押（品）",
+    "frequency": 4,
+    "page": 23,
+    "id": "pledge"
+  },
+  {
+    "word": "plunge",
+    "meaning": "v. 纵身投入；跳入；猛跌；着手 n. 骤降；跌落；突然卷入；跳水",
+    "frequency": 3,
+    "page": 22,
+    "id": "plunge"
+  },
+  {
+    "word": "politician",
+    "meaning": "n. 政治家，政客",
+    "frequency": 8,
+    "page": 22,
+    "id": "politician"
+  },
+  {
+    "word": "poll",
+    "meaning": "n. 民意调查；投票 v. 做民意调查；获得选票",
+    "frequency": 11,
+    "page": 23,
+    "id": "poll"
+  },
+  {
+    "word": "ponder",
+    "meaning": "v. 沉思；衡量；回想",
+    "frequency": 2,
+    "page": 23,
+    "id": "ponder"
+  },
+  {
+    "word": "portion",
+    "meaning": "n. 部分；（食物的）一份 v. 把…分成若干份",
+    "frequency": 5,
+    "page": 22,
+    "id": "portion"
+  },
+  {
+    "word": "portrait",
+    "meaning": "n. 肖像；描绘 adj. 竖式的",
+    "frequency": 1,
+    "page": 22,
+    "id": "portrait"
+  },
+  {
+    "word": "possess",
+    "meaning": "v. 具有；拥有；支配",
+    "frequency": 9,
+    "page": 22,
+    "id": "possess"
+  },
+  {
+    "word": "preach",
+    "meaning": "v. 布道；宣传；说教",
+    "frequency": 2,
+    "page": 23,
+    "id": "preach"
+  },
+  {
+    "word": "precious",
+    "meaning": "adj. 珍奇的；宝贵的",
+    "frequency": 6,
+    "page": 22,
+    "id": "precious"
+  },
+  {
+    "word": "preclude",
+    "meaning": "v. 妨碍，阻止",
+    "frequency": 1,
+    "page": 21,
+    "id": "preclude"
+  },
+  {
+    "word": "predecessor",
+    "meaning": "n. 前辈，前任；前身",
+    "frequency": 5,
+    "page": 23,
+    "id": "predecessor"
+  },
+  {
+    "word": "prejudice",
+    "meaning": "n. 偏见，成见 v. 使抱偏见；损害",
+    "frequency": 9,
+    "page": 22,
+    "id": "prejudice"
+  },
+  {
+    "word": "premium",
+    "meaning": "n. 保险费；额外费用；奖品，奖金 adj. 优质的；高价的",
+    "frequency": 8,
+    "page": 24,
+    "id": "premium"
+  },
+  {
+    "word": "prestige",
+    "meaning": "n. 声望；威信 adj. 有威望的；名贵的",
+    "frequency": 4,
+    "page": 23,
+    "id": "prestige"
+  },
+  {
+    "word": "presumably",
+    "meaning": "adv. 推测起来，大概",
+    "frequency": 2,
+    "page": 24,
+    "id": "presumably"
+  },
+  {
+    "word": "prevail",
+    "meaning": "v. 流行；获胜；占优势",
+    "frequency": 3,
+    "page": 22,
+    "id": "prevail"
+  },
+  {
+    "word": "prevailing",
+    "meaning": "adj. 普遍的，盛行的，流行的，（指风）某地区常刮的",
+    "frequency": null,
+    "page": 24,
+    "id": "prevailing"
+  },
+  {
+    "word": "prime",
+    "meaning": "adj. 首要的；典型的；优质的 n. 壮年；鼎盛时期 v. 使…做好准备",
+    "frequency": 5,
+    "page": 22,
+    "id": "prime"
+  },
+  {
+    "word": "principal",
+    "meaning": "n. 校长；资金；主要演员 adj. 主要的，最重要的",
+    "frequency": 3,
+    "page": 22,
+    "id": "principal"
+  },
+  {
+    "word": "principle",
+    "meaning": "n. 道德原则；原理",
+    "frequency": 20,
+    "page": 22,
+    "id": "principle"
+  },
+  {
+    "word": "priority",
+    "meaning": "n. 优先考虑的事；优先（权）",
+    "frequency": 20,
+    "page": 24,
+    "id": "priority"
+  },
+  {
+    "word": "privilege",
+    "meaning": "n. 特惠；特权；荣幸 v. 授予…以特权",
+    "frequency": 12,
+    "page": 22,
+    "id": "privilege"
+  },
+  {
+    "word": "probe",
+    "meaning": "v. 探查；探测；追问 n. 详细调查；探测器；探针",
+    "frequency": 2,
+    "page": 24,
+    "id": "probe"
+  },
+  {
+    "word": "profile",
+    "meaning": "n. 侧面像；形象；简介；关注度 v. 概述",
+    "frequency": 5,
+    "page": 24,
+    "id": "profile"
+  },
+  {
+    "word": "profound",
+    "meaning": "adj. 深远的；深奥的；深刻的",
+    "frequency": 11,
+    "page": 24,
+    "id": "profound"
+  },
+  {
+    "word": "programme",
+    "meaning": "n. 计划；节目；程序 v. 编程；计划 - =<美>program",
+    "frequency": 9,
+    "page": 24,
+    "id": "programme"
+  },
+  {
+    "word": "prohibit",
+    "meaning": "v. 禁止；妨碍",
+    "frequency": 3,
+    "page": 22,
+    "id": "prohibit"
+  },
+  {
+    "word": "prominent",
+    "meaning": "adj. 重要的；杰出的；显眼的",
+    "frequency": 9,
+    "page": 23,
+    "id": "prominent"
+  },
+  {
+    "word": "prompt",
+    "meaning": "adj. 迅速的；立刻的；准时的 v. 促使；引起；提示 n. 提词，提示",
+    "frequency": 16,
+    "page": 23,
+    "id": "prompt"
+  },
+  {
+    "word": "prone",
+    "meaning": "adj. 易于遭受…的；有…倾向的；俯卧的",
+    "frequency": 3,
+    "page": 24,
+    "id": "prone"
+  },
+  {
+    "word": "proof",
+    "meaning": "n. 证据；证实；校样 adj. 能防…的",
+    "frequency": 5,
+    "page": 23,
+    "id": "proof"
+  },
+  {
+    "word": "propel",
+    "meaning": "v. 推动；驱动",
+    "frequency": 4,
+    "page": 21,
+    "id": "propel"
+  },
+  {
+    "word": "property",
+    "meaning": "n. 所有物，财产；房地产；特性",
+    "frequency": 13,
+    "page": 23,
+    "id": "property"
+  },
+  {
+    "word": "proportion",
+    "meaning": "n. 比例；部分；份额；均衡",
+    "frequency": 13,
+    "page": 23,
+    "id": "proportion"
+  },
+  {
+    "word": "propose",
+    "meaning": "v. 提出，提议；打算；求婚",
+    "frequency": 16,
+    "page": 23,
+    "id": "propose"
+  },
+  {
+    "word": "prosecute",
+    "meaning": "v. 起诉；检举；公诉；继续做",
+    "frequency": 4,
+    "page": 24,
+    "id": "prosecute"
+  },
+  {
+    "word": "prospect",
+    "meaning": "n. 可能性；希望；前景；机会 v. 勘探，勘察",
+    "frequency": 21,
+    "page": 23,
+    "id": "prospect"
+  },
+  {
+    "word": "prosper",
+    "meaning": "v. 兴旺，发达",
+    "frequency": 1,
+    "page": 24,
+    "id": "prosper"
+  },
+  {
+    "word": "prosperity",
+    "meaning": "n. 繁荣，兴旺",
+    "frequency": 12,
+    "page": 23,
+    "id": "prosperity"
+  },
+  {
+    "word": "protest",
+    "meaning": "v. 抗议，反对；争辩 n. 抗议，反对",
+    "frequency": 3,
+    "page": 23,
+    "id": "protest"
+  },
+  {
+    "word": "provision",
+    "meaning": "n. 供给；粮食；条款；准备 v. 为…提供所需物品",
+    "frequency": 9,
+    "page": 21,
+    "id": "provision"
+  },
+  {
+    "word": "prudent",
+    "meaning": "adj. 谨慎的；精明的",
+    "frequency": 4,
+    "page": 24,
+    "id": "prudent"
+  },
+  {
+    "word": "pursuit",
+    "meaning": "n. 追求；追赶；事业，爱好，活动",
+    "frequency": 13,
+    "page": 23,
+    "id": "pursuit"
+  },
+  {
+    "word": "quota",
+    "meaning": "n. 定额，指标",
+    "frequency": 7,
+    "page": 24,
+    "id": "quota"
+  },
+  {
+    "word": "radical",
+    "meaning": "adj. 根本的，彻底的；激进的 n. 激进分子",
+    "frequency": 13,
+    "page": 25,
+    "id": "radical"
+  },
+  {
+    "word": "rational",
+    "meaning": "adj. 合理的；理智的",
+    "frequency": 3,
+    "page": 24,
+    "id": "rational"
+  },
+  {
+    "word": "reaffirm",
+    "meaning": "v. 重申，再次确定",
+    "frequency": null,
+    "page": 26,
+    "id": "reaffirm"
+  },
+  {
+    "word": "realm",
+    "meaning": "n. 领域；范围；王国",
+    "frequency": 4,
+    "page": 24,
+    "id": "realm"
+  },
+  {
+    "word": "receipt",
+    "meaning": "n. 收据；收到",
+    "frequency": 5,
+    "page": 24,
+    "id": "receipt"
+  },
+  {
+    "word": "recession",
+    "meaning": "n. 经济衰退；后退",
+    "frequency": 17,
+    "page": 26,
+    "id": "recession"
+  },
+  {
+    "word": "recipe",
+    "meaning": "n. 食谱；处方；秘诀",
+    "frequency": 1,
+    "page": 25,
+    "id": "recipe"
+  },
+  {
+    "word": "recipient",
+    "meaning": "n. 接受者",
+    "frequency": 6,
+    "page": 26,
+    "id": "recipient"
+  },
+  {
+    "word": "reckless",
+    "meaning": "adj. 鲁莽的，不计后果的",
+    "frequency": 1,
+    "page": 25,
+    "id": "reckless"
+  },
+  {
+    "word": "reckon",
+    "meaning": "v. 认为；估计；看作",
+    "frequency": 4,
+    "page": 26,
+    "id": "reckon"
+  },
+  {
+    "word": "recreation",
+    "meaning": "n. 消遣，娱乐；重现",
+    "frequency": 1,
+    "page": 26,
+    "id": "recreation"
+  },
+  {
+    "word": "recruit",
+    "meaning": "v. 招募；动员 n. 新兵；新成员",
+    "frequency": 11,
+    "page": 26,
+    "id": "recruit"
+  },
+  {
+    "word": "reference",
+    "meaning": "n. 引用；提及；参考；推荐信 v. 查阅，参考",
+    "frequency": 9,
+    "page": 24,
+    "id": "reference"
+  },
+  {
+    "word": "reform",
+    "meaning": "v. 改革，改良；改过自新 n. 改革，改善",
+    "frequency": 26,
+    "page": 24,
+    "id": "reform"
+  },
+  {
+    "word": "refrain",
+    "meaning": "v. 克制；避免 n. 陈词滥调；副歌",
+    "frequency": 3,
+    "page": 26,
+    "id": "refrain"
+  },
+  {
+    "word": "refute",
+    "meaning": "v. 反驳，否认",
+    "frequency": 1,
+    "page": 24,
+    "id": "refute"
+  },
+  {
+    "word": "regime",
+    "meaning": "n. 政权；管理体制",
+    "frequency": 4,
+    "page": 24,
+    "id": "regime"
+  },
+  {
+    "word": "reign",
+    "meaning": "n. 统治期，任期 v. 统治；盛行；成为最佳",
+    "frequency": 4,
+    "page": 25,
+    "id": "reign"
+  },
+  {
+    "word": "release",
+    "meaning": "v. 释放；发表；松开；发泄 n. 释放；解脱；发行；放弃",
+    "frequency": 13,
+    "page": 24,
+    "id": "release"
+  },
+  {
+    "word": "relevant",
+    "meaning": "adj. 相关的，切题的；有价值的",
+    "frequency": 20,
+    "page": 25,
+    "id": "relevant"
+  },
+  {
+    "word": "reliance",
+    "meaning": "n. 信赖，依靠",
+    "frequency": 9,
+    "page": 25,
+    "id": "reliance"
+  },
+  {
+    "word": "religious",
+    "meaning": "adj. 宗教的；虔诚的",
+    "frequency": 14,
+    "page": 25,
+    "id": "religious"
+  },
+  {
+    "word": "reluctant",
+    "meaning": "adj. 不情愿的，勉强的",
+    "frequency": 12,
+    "page": 25,
+    "id": "reluctant"
+  },
+  {
+    "word": "remedy",
+    "meaning": "n. 解决方法；疗法 v. 补救，矫正；治疗",
+    "frequency": 3,
+    "page": 25,
+    "id": "remedy"
+  },
+  {
+    "word": "remold",
+    "meaning": "v. 改变（观点、系统、思维方式等）；改造（同“remould”）",
+    "frequency": null,
+    "page": 26,
+    "id": "remold"
+  },
+  {
+    "word": "renaissance",
+    "meaning": "n. 文艺复兴；再生",
+    "frequency": 8,
+    "page": 26,
+    "id": "renaissance"
+  },
+  {
+    "word": "render",
+    "meaning": "v. 使变得；给予；表达；翻译；提出",
+    "frequency": 9,
+    "page": 25,
+    "id": "render"
+  },
+  {
+    "word": "repertoire",
+    "meaning": "n. 全部剧目；全部才能",
+    "frequency": 1,
+    "page": 24,
+    "id": "repertoire"
+  },
+  {
+    "word": "repression",
+    "meaning": "n. 镇压；抑制；压抑",
+    "frequency": null,
+    "page": 26,
+    "id": "repression"
+  },
+  {
+    "word": "resemble",
+    "meaning": "v. 看起来像，与…相似",
+    "frequency": 5,
+    "page": 25,
+    "id": "resemble"
+  },
+  {
+    "word": "resilient",
+    "meaning": "adj. 有适应力的；有弹性的",
+    "frequency": 2,
+    "page": 26,
+    "id": "resilient"
+  },
+  {
+    "word": "resistance",
+    "meaning": "n. 反抗；抵制；抵抗力；阻力",
+    "frequency": 9,
+    "page": 25,
+    "id": "resistance"
+  },
+  {
+    "word": "restrain",
+    "meaning": "v. 抑制；阻止",
+    "frequency": 1,
+    "page": 25,
+    "id": "restrain"
+  },
+  {
+    "word": "restraint",
+    "meaning": "n. 控制；克制",
+    "frequency": 4,
+    "page": 25,
+    "id": "restraint"
+  },
+  {
+    "word": "restrict",
+    "meaning": "v. 限制；约束",
+    "frequency": 10,
+    "page": 25,
+    "id": "restrict"
+  },
+  {
+    "word": "resume",
+    "meaning": "v. 重新开始；继续；恢复 n. 简历；概要",
+    "frequency": 4,
+    "page": 25,
+    "id": "resume"
+  },
+  {
+    "word": "retain",
+    "meaning": "v. 保持，保留",
+    "frequency": 8,
+    "page": 25,
+    "id": "retain"
+  },
+  {
+    "word": "retention",
+    "meaning": "n. 保留，保持；记忆力",
+    "frequency": 1,
+    "page": 26,
+    "id": "retention"
+  },
+  {
+    "word": "reveal",
+    "meaning": "v. 揭示，披露；露出，展现",
+    "frequency": 34,
+    "page": 25,
+    "id": "reveal"
+  },
+  {
+    "word": "revelation",
+    "meaning": "n. 披露；被曝光的真相；启示",
+    "frequency": 4,
+    "page": 26,
+    "id": "revelation"
+  },
+  {
+    "word": "revenge",
+    "meaning": "n. 报复，复仇 v. 向…报仇",
+    "frequency": null,
+    "page": 25,
+    "id": "revenge"
+  },
+  {
+    "word": "revenue",
+    "meaning": "n. （财政）收入",
+    "frequency": 31,
+    "page": 26,
+    "id": "revenue"
+  },
+  {
+    "word": "reverse",
+    "meaning": "v. 彻底改变；撤销；使反转；倒车 adj. 反面的，相反的 n. 相反的事物；反面；倒挡",
+    "frequency": 9,
+    "page": 25,
+    "id": "reverse"
+  },
+  {
+    "word": "revise",
+    "meaning": "v. 修改，修订；复习；改变",
+    "frequency": 5,
+    "page": 25,
+    "id": "revise"
+  },
+  {
+    "word": "rid",
+    "meaning": "v. 使摆脱",
+    "frequency": 2,
+    "page": 25,
+    "id": "rid"
+  },
+  {
+    "word": "rigid",
+    "meaning": "adj. 死板的；固执的；僵硬的；严苛的",
+    "frequency": 6,
+    "page": 25,
+    "id": "rigid"
+  },
+  {
+    "word": "ritual",
+    "meaning": "n. 仪式，典礼；习俗 adj. 仪式的；例行公事的",
+    "frequency": 7,
+    "page": 26,
+    "id": "ritual"
+  },
+  {
+    "word": "rival",
+    "meaning": "n. 竞争者，对手 v. 与…竞争；比得上 adj. 竞争的",
+    "frequency": 4,
+    "page": 25,
+    "id": "rival"
+  },
+  {
+    "word": "robust",
+    "meaning": "adj. 强健的；强劲的；坚定的",
+    "frequency": 3,
+    "page": 26,
+    "id": "robust"
+  },
+  {
+    "word": "sacrifice",
+    "meaning": "n. 牺牲；祭品；献祭 v. 牺牲，献出；献祭",
+    "frequency": 6,
+    "page": 26,
+    "id": "sacrifice"
+  },
+  {
+    "word": "sake",
+    "meaning": "n. 缘故；利益；清酒",
+    "frequency": 4,
+    "page": 26,
+    "id": "sake"
+  },
+  {
+    "word": "salary",
+    "meaning": "n. 薪水",
+    "frequency": 8,
+    "page": 27,
+    "id": "salary"
+  },
+  {
+    "word": "sanction",
+    "meaning": "n. 制裁；处罚；许可 v. 许可；惩罚；制裁",
+    "frequency": 4,
+    "page": 26,
+    "id": "sanction"
+  },
+  {
+    "word": "scale",
+    "meaning": "n. 规模；程度；范围；刻度；等级；秤；鱼鳞 v. 改变…的大小；攀登；去鳞",
+    "frequency": 24,
+    "page": 27,
+    "id": "scale"
+  },
+  {
+    "word": "scandal",
+    "meaning": "n. 丑事，丑闻",
+    "frequency": 1,
+    "page": 29,
+    "id": "scandal"
+  },
+  {
+    "word": "scarcely",
+    "meaning": "adv. 刚刚；几乎不",
+    "frequency": 1,
+    "page": 27,
+    "id": "scarcely"
+  },
+  {
+    "word": "scope",
+    "meaning": "n. 范围；机会 v. 查清，探明",
+    "frequency": 5,
+    "page": 27,
+    "id": "scope"
+  },
+  {
+    "word": "scrap",
+    "meaning": "n. 碎片；废料；残羹剩饭 v. 废弃，取消；打架",
+    "frequency": 2,
+    "page": 29,
+    "id": "scrap"
+  },
+  {
+    "word": "scrutiny",
+    "meaning": "n. 仔细检查，认真审查",
+    "frequency": 4,
+    "page": 29,
+    "id": "scrutiny"
+  },
+  {
+    "word": "sculpture",
+    "meaning": "n. 雕像（作品）；雕刻术",
+    "frequency": 5,
+    "page": 29,
+    "id": "sculpture"
+  },
+  {
+    "word": "section",
+    "meaning": "n. 部分；部门；部件；章节；阶层 v. 切开",
+    "frequency": 8,
+    "page": 27,
+    "id": "section"
+  },
+  {
+    "word": "sector",
+    "meaning": "n. 部门；区域；扇形",
+    "frequency": 24,
+    "page": 30,
+    "id": "sector"
+  },
+  {
+    "word": "see",
+    "meaning": "v. 看；会见；与…交往；明白；看待；考虑",
+    "frequency": null,
+    "page": 27,
+    "id": "see"
+  },
+  {
+    "word": "segment",
+    "meaning": "n. 部分；片段；瓣 v. 分割，划分",
+    "frequency": 8,
+    "page": 29,
+    "id": "segment"
+  },
+  {
+    "word": "senate",
+    "meaning": "n. 参议院；大学理事会",
+    "frequency": 5,
+    "page": 27,
+    "id": "senate"
+  },
+  {
+    "word": "sentiment",
+    "meaning": "n. 情绪；观点；伤感",
+    "frequency": 6,
+    "page": 29,
+    "id": "sentiment"
+  },
+  {
+    "word": "sequence",
+    "meaning": "n. 一系列；顺序；连续事件 v. 按顺序排列；测定…序列",
+    "frequency": 8,
+    "page": 27,
+    "id": "sequence"
+  },
+  {
+    "word": "settlement",
+    "meaning": "n. 解决；协议；偿还；定居点",
+    "frequency": 8,
+    "page": 27,
+    "id": "settlement"
+  },
+  {
+    "word": "shield",
+    "meaning": "n. 盾牌；屏障；盾形徽章 v. 保护",
+    "frequency": 2,
+    "page": 27,
+    "id": "shield"
+  },
+  {
+    "word": "shore",
+    "meaning": "n. 海岸，河岸，湖滨；沿海国家 phrase. （shore up）支撑",
+    "frequency": 5,
+    "page": 27,
+    "id": "shore"
+  },
+  {
+    "word": "shove",
+    "meaning": "v. 猛推；乱丢 n. 猛推，推挤",
+    "frequency": 2,
+    "page": 29,
+    "id": "shove"
+  },
+  {
+    "word": "shrink",
+    "meaning": "v. 收缩；退缩；缩小 n. 精神病医生，精神病学家",
+    "frequency": 4,
+    "page": 27,
+    "id": "shrink"
+  },
+  {
+    "word": "shrinking",
+    "meaning": "adj. 萎缩的",
+    "frequency": null,
+    "page": 30,
+    "id": "shrinking"
+  },
+  {
+    "word": "shuttle",
+    "meaning": "n. 航天飞机；往返航班（或班车）；梭子 v. 穿梭往返",
+    "frequency": 7,
+    "page": 29,
+    "id": "shuttle"
+  },
+  {
+    "word": "simultaneous",
+    "meaning": "adj. 同时发生的，同步的",
+    "frequency": 1,
+    "page": 29,
+    "id": "simultaneous"
+  },
+  {
+    "word": "skeptical",
+    "meaning": "adj. 持怀疑态度的，不相信的 - =<英>sceptical",
+    "frequency": 4,
+    "page": 30,
+    "id": "skeptical"
+  },
+  {
+    "word": "slack",
+    "meaning": "adj. 松弛的；萧条的；懈怠的 v. 松懈，偷懒 n. （绳子的）松弛部分",
+    "frequency": 2,
+    "page": 29,
+    "id": "slack"
+  },
+  {
+    "word": "slave",
+    "meaning": "n. 奴隶；完全受…控制的人 v. 拼命苦干",
+    "frequency": 10,
+    "page": 27,
+    "id": "slave"
+  },
+  {
+    "word": "slip",
+    "meaning": "v. 滑倒；滑落；溜走；偷偷塞；变差；陷入困境 n. 滑倒；疏忽；纸条；衬裙",
+    "frequency": 4,
+    "page": 27,
+    "id": "slip"
+  },
+  {
+    "word": "snap",
+    "meaning": "v. 断裂；咬；拍照；突然失控 n. 啪嗒声；照片 adj. 匆忙的，仓促的",
+    "frequency": 5,
+    "page": 26,
+    "id": "snap"
+  },
+  {
+    "word": "sober",
+    "meaning": "adj. 清醒的；冷静的；严肃的；素净的 v. 变得冷静；变得严肃",
+    "frequency": 2,
+    "page": 27,
+    "id": "sober"
+  },
+  {
+    "word": "sophisticated",
+    "meaning": "adj. 高级的；老练的；尖端的，精密的",
+    "frequency": 5,
+    "page": 27,
+    "id": "sophisticated"
+  },
+  {
+    "word": "source",
+    "meaning": "n. 来源；根源",
+    "frequency": 27,
+    "page": 27,
+    "id": "source"
+  },
+  {
+    "word": "spectrum",
+    "meaning": "n. 光谱，波谱；范围",
+    "frequency": 2,
+    "page": 29,
+    "id": "spectrum"
+  },
+  {
+    "word": "speculate",
+    "meaning": "v. 推测；投机",
+    "frequency": 7,
+    "page": 29,
+    "id": "speculate"
+  },
+  {
+    "word": "spoil",
+    "meaning": "v. 溺爱；毁掉；善待；变质 n. 战利品",
+    "frequency": 3,
+    "page": 27,
+    "id": "spoil"
+  },
+  {
+    "word": "spontaneous",
+    "meaning": "adj. 自然的；自发的",
+    "frequency": 1,
+    "page": 26,
+    "id": "spontaneous"
+  },
+  {
+    "word": "spouse",
+    "meaning": "n. 配偶",
+    "frequency": 8,
+    "page": 30,
+    "id": "spouse"
+  },
+  {
+    "word": "spray",
+    "meaning": "n. 浪花；喷雾（器） v. 喷；扫射",
+    "frequency": 3,
+    "page": 27,
+    "id": "spray"
+  },
+  {
+    "word": "squeeze",
+    "meaning": "v. 挤压，捏；榨出；塞入；勒索；削减 n. 挤压，捏；挤出的液体；削减",
+    "frequency": 5,
+    "page": 27,
+    "id": "squeeze"
+  },
+  {
+    "word": "stability",
+    "meaning": "n. 稳定；稳固",
+    "frequency": 7,
+    "page": 27,
+    "id": "stability"
+  },
+  {
+    "word": "stake",
+    "meaning": "n. 股份；赌注；利害关系；桩 v. 以…打赌；拿…冒险",
+    "frequency": 3,
+    "page": 27,
+    "id": "stake"
+  },
+  {
+    "word": "stalk",
+    "meaning": "v. 跟踪；偷偷接近；怒气冲冲地走，趾高气扬地走 n. 梗，茎；柄",
+    "frequency": 2,
+    "page": 29,
+    "id": "stalk"
+  },
+  {
+    "word": "stand up for",
+    "meaning": "phrase. 支持，维护，保卫；在婚礼中做某人的傧相",
+    "frequency": null,
+    "page": 27,
+    "id": "stand up for"
+  },
+  {
+    "word": "starve",
+    "meaning": "v. 挨饿；急需，使极其缺乏",
+    "frequency": 4,
+    "page": 27,
+    "id": "starve"
+  },
+  {
+    "word": "statement",
+    "meaning": "n. 陈述；声明；表态；报表",
+    "frequency": 16,
+    "page": 28,
+    "id": "statement"
+  },
+  {
+    "word": "statistic",
+    "meaning": "n. 统计学，统计数字，统计资料，（一项）统计数据 adj. 统计（上）的，统计学的",
+    "frequency": null,
+    "page": 30,
+    "id": "statistic"
+  },
+  {
+    "word": "statistics",
+    "meaning": "n. 统计数据；统计学",
+    "frequency": 13,
+    "page": 30,
+    "id": "statistics"
+  },
+  {
+    "word": "statute",
+    "meaning": "n. 法令，章程",
+    "frequency": 4,
+    "page": 30,
+    "id": "statute"
+  },
+  {
+    "word": "stem",
+    "meaning": "n. 茎，干；柄 v. 阻止；起源于",
+    "frequency": 8,
+    "page": 28,
+    "id": "stem"
+  },
+  {
+    "word": "stereotype",
+    "meaning": "n. 刻板印象；成见；陈规 v. 对…产生成见",
+    "frequency": 5,
+    "page": 30,
+    "id": "stereotype"
+  },
+  {
+    "word": "stern",
+    "meaning": "adj. 严厉的；苛刻的；严酷的 n. 船尾",
+    "frequency": 4,
+    "page": 28,
+    "id": "stern"
+  },
+  {
+    "word": "stiff",
+    "meaning": "adj. 僵硬的；稠的；激烈的 adv. 非常；极其",
+    "frequency": 3,
+    "page": 28,
+    "id": "stiff"
+  },
+  {
+    "word": "stimulate",
+    "meaning": "v. 促进；激励；激发；使兴奋",
+    "frequency": 5,
+    "page": 28,
+    "id": "stimulate"
+  },
+  {
+    "word": "stir",
+    "meaning": "v. 搅动；煽动；引起 n. 激动，愤怒；搅动",
+    "frequency": 3,
+    "page": 26,
+    "id": "stir"
+  },
+  {
+    "word": "stock",
+    "meaning": "n. 库存；股份；资本；牲畜；高汤 v. 储备，备有 adj. 老一套的；常备的",
+    "frequency": 21,
+    "page": 28,
+    "id": "stock"
+  },
+  {
+    "word": "stock up on",
+    "meaning": "phrase. 储备",
+    "frequency": null,
+    "page": 30,
+    "id": "stock up on"
+  },
+  {
+    "word": "strain",
+    "meaning": "v. 拉伤，损伤；尽力；过多使用 n. 紧张；压力；拉伤；品种",
+    "frequency": 7,
+    "page": 28,
+    "id": "strain"
+  },
+  {
+    "word": "strategic",
+    "meaning": "adj. 战略性的，战略上的；根据全局而安排的",
+    "frequency": null,
+    "page": 30,
+    "id": "strategic"
+  },
+  {
+    "word": "strategy",
+    "meaning": "n. 策略；战略",
+    "frequency": 20,
+    "page": 28,
+    "id": "strategy"
+  },
+  {
+    "word": "straw",
+    "meaning": "n. 稻草，麦秆；吸管",
+    "frequency": 2,
+    "page": 28,
+    "id": "straw"
+  },
+  {
+    "word": "stretch",
+    "meaning": "v. 撑大；有弹性；绷紧；伸展；伸手够；延续；使竭尽全力；滥用n. 一片；一段时间；伸展；弹性；困难的任务",
+    "frequency": 6,
+    "page": 28,
+    "id": "stretch"
+  },
+  {
+    "word": "strike",
+    "meaning": "v. 击；打；撞击；攻击；突然想到；罢工 n. 击，打；罢工；袭击；撞击 adj. （striking）引人注目的",
+    "frequency": 10,
+    "page": 28,
+    "id": "strike"
+  },
+  {
+    "word": "stripe",
+    "meaning": "n. 条纹；徽章；类型",
+    "frequency": 2,
+    "page": 28,
+    "id": "stripe"
+  },
+  {
+    "word": "stubborn",
+    "meaning": "adj. 固执的；倔强的；难以对付的",
+    "frequency": 1,
+    "page": 29,
+    "id": "stubborn"
+  },
+  {
+    "word": "submerge",
+    "meaning": "v. 淹没；掩盖",
+    "frequency": 1,
+    "page": 28,
+    "id": "submerge"
+  },
+  {
+    "word": "subordinate",
+    "meaning": "adj. 隶属的；次要的 n. 下级，部属 v. 使从属于",
+    "frequency": 2,
+    "page": 29,
+    "id": "subordinate"
+  },
+  {
+    "word": "subsequent",
+    "meaning": "adj. 随后的",
+    "frequency": 6,
+    "page": 28,
+    "id": "subsequent"
+  },
+  {
+    "word": "substance",
+    "meaning": "n. 物质；实质；主旨；重要性",
+    "frequency": 10,
+    "page": 28,
+    "id": "substance"
+  },
+  {
+    "word": "substantial",
+    "meaning": "adj. 大量的；重大的；结实的；本质的",
+    "frequency": 9,
+    "page": 28,
+    "id": "substantial"
+  },
+  {
+    "word": "substitute",
+    "meaning": "n. 代替者，代替物 v. 代替",
+    "frequency": 3,
+    "page": 28,
+    "id": "substitute"
+  },
+  {
+    "word": "suburb",
+    "meaning": "n. 市郊，郊区",
+    "frequency": 3,
+    "page": 26,
+    "id": "suburb"
+  },
+  {
+    "word": "sue",
+    "meaning": "v. 控告",
+    "frequency": 2,
+    "page": 29,
+    "id": "sue"
+  },
+  {
+    "word": "sufficient",
+    "meaning": "adj. 足够的，充足的",
+    "frequency": 13,
+    "page": 28,
+    "id": "sufficient"
+  },
+  {
+    "word": "superficial",
+    "meaning": "adj. 肤浅的；表面的",
+    "frequency": 3,
+    "page": 28,
+    "id": "superficial"
+  },
+  {
+    "word": "superfluous",
+    "meaning": "adj. 过剩的，多余的",
+    "frequency": 3,
+    "page": 29,
+    "id": "superfluous"
+  },
+  {
+    "word": "supervise",
+    "meaning": "v. 监督；指导；主管",
+    "frequency": 5,
+    "page": 29,
+    "id": "supervise"
+  },
+  {
+    "word": "suppress",
+    "meaning": "v. 镇压；封锁；抑制",
+    "frequency": 5,
+    "page": 29,
+    "id": "suppress"
+  },
+  {
+    "word": "supreme",
+    "meaning": "adj. 至高无上的；最大的",
+    "frequency": 25,
+    "page": 28,
+    "id": "supreme"
+  },
+  {
+    "word": "surpass",
+    "meaning": "v. 超过，强过",
+    "frequency": 2,
+    "page": 29,
+    "id": "surpass"
+  },
+  {
+    "word": "surplus",
+    "meaning": "n. 过剩；剩余额，盈余 adj. 过剩的，多余的",
+    "frequency": 5,
+    "page": 29,
+    "id": "surplus"
+  },
+  {
+    "word": "surveillance",
+    "meaning": "n. 监视，监控",
+    "frequency": 4,
+    "page": 30,
+    "id": "surveillance"
+  },
+  {
+    "word": "susceptible",
+    "meaning": "adj. 敏感的；易受影响的；易受伤害的",
+    "frequency": 2,
+    "page": 26,
+    "id": "susceptible"
+  },
+  {
+    "word": "sustain",
+    "meaning": "v. 保持；支持；支撑；认可",
+    "frequency": 12,
+    "page": 28,
+    "id": "sustain"
+  },
+  {
+    "word": "sustainable",
+    "meaning": "adj. （自然资源）可持续的，不破坏环境的；（计划、方法、体制）可持续的，持续性的",
+    "frequency": null,
+    "page": 30,
+    "id": "sustainable"
+  },
+  {
+    "word": "sustained",
+    "meaning": "adj. 持续的, 持久(不变)的, 被支持的 v. “sustain”的过去式和过去分词",
+    "frequency": null,
+    "page": 30,
+    "id": "sustained"
+  },
+  {
+    "word": "sympathize",
+    "meaning": "v. 同情；赞同 - =<英>sympathise",
+    "frequency": 1,
+    "page": 28,
+    "id": "sympathize"
+  },
+  {
+    "word": "sympathy",
+    "meaning": "n. 同情；支持，赞同；意气相投",
+    "frequency": 12,
+    "page": 28,
+    "id": "sympathy"
+  },
+  {
+    "word": "symphony",
+    "meaning": "n. 交响乐",
+    "frequency": 2,
+    "page": 29,
+    "id": "symphony"
+  },
+  {
+    "word": "symptom",
+    "meaning": "n. 症状；征兆",
+    "frequency": 5,
+    "page": 29,
+    "id": "symptom"
+  },
+  {
+    "word": "synthetic",
+    "meaning": "adj. 合成的，人造的 n. 合成物",
+    "frequency": 3,
+    "page": 29,
+    "id": "synthetic"
+  },
+  {
+    "word": "tackle",
+    "meaning": "v. 处理；交涉；抓获；抢断 n. 抢断球；阻截队员；体育器材",
+    "frequency": 6,
+    "page": 31,
+    "id": "tackle"
+  },
+  {
+    "word": "tactic",
+    "meaning": "n. 策略，手段；战术，兵法",
+    "frequency": 5,
+    "page": 31,
+    "id": "tactic"
+  },
+  {
+    "word": "tame",
+    "meaning": "adj. 驯化的；乏味的；温顺的 v. 驯服，驯化；控制",
+    "frequency": 4,
+    "page": 30,
+    "id": "tame"
+  },
+  {
+    "word": "tangible",
+    "meaning": "adj. 实际的，真实的；有形的",
+    "frequency": 5,
+    "page": 31,
+    "id": "tangible"
+  },
+  {
+    "word": "temporary",
+    "meaning": "adj. 暂时的，临时的",
+    "frequency": 6,
+    "page": 30,
+    "id": "temporary"
+  },
+  {
+    "word": "temptation",
+    "meaning": "n. 诱惑，引诱；诱惑物",
+    "frequency": 4,
+    "page": 30,
+    "id": "temptation"
+  },
+  {
+    "word": "tension",
+    "meaning": "n. 矛盾；紧张；张力",
+    "frequency": 5,
+    "page": 31,
+    "id": "tension"
+  },
+  {
+    "word": "tentative",
+    "meaning": "adj. 暂定的；犹豫不定的",
+    "frequency": 3,
+    "page": 31,
+    "id": "tentative"
+  },
+  {
+    "word": "testimony",
+    "meaning": "n. 证词，口供；证据，证明",
+    "frequency": 2,
+    "page": 31,
+    "id": "testimony"
+  },
+  {
+    "word": "thread",
+    "meaning": "n. 线；思路；线索 v. 穿过；穿（针）；穿成串；用…线缝",
+    "frequency": 1,
+    "page": 30,
+    "id": "thread"
+  },
+  {
+    "word": "threshold",
+    "meaning": "n. 门槛；临界点，阈值",
+    "frequency": 7,
+    "page": 31,
+    "id": "threshold"
+  },
+  {
+    "word": "thrive",
+    "meaning": "v. 兴旺，繁荣，茁壮成长",
+    "frequency": 12,
+    "page": 30,
+    "id": "thrive"
+  },
+  {
+    "word": "tide",
+    "meaning": "n. 潮汐；潮流；浪潮",
+    "frequency": 4,
+    "page": 30,
+    "id": "tide"
+  },
+  {
+    "word": "tilt",
+    "meaning": "v. 倾斜；使倾向于，偏向 n. 倾斜，倾侧；企图",
+    "frequency": null,
+    "page": 31,
+    "id": "tilt"
+  },
+  {
+    "word": "timber",
+    "meaning": "n. 木料；林木",
+    "frequency": 11,
+    "page": 30,
+    "id": "timber"
+  },
+  {
+    "word": "toss",
+    "meaning": "v. 扔，抛，掷；掷硬币决定；摇摆，颠簸 n. 掷硬币决定；投掷",
+    "frequency": 1,
+    "page": 30,
+    "id": "toss"
+  },
+  {
+    "word": "toxic",
+    "meaning": "adj. 有毒的；（资产）不良的；极其有害的",
+    "frequency": 3,
+    "page": 31,
+    "id": "toxic"
+  },
+  {
+    "word": "tragic",
+    "meaning": "adj. 悲惨的，可悲的",
+    "frequency": 1,
+    "page": 31,
+    "id": "tragic"
+  },
+  {
+    "word": "trait",
+    "meaning": "n. 特征，特点；遗传特征",
+    "frequency": 8,
+    "page": 30,
+    "id": "trait"
+  },
+  {
+    "word": "transcend",
+    "meaning": "v. 超出，超越",
+    "frequency": 1,
+    "page": 31,
+    "id": "transcend"
+  },
+  {
+    "word": "transient",
+    "meaning": "adj. 短暂的；暂住的；临时的 n. 流动人员",
+    "frequency": 2,
+    "page": 31,
+    "id": "transient"
+  },
+  {
+    "word": "transparent",
+    "meaning": "adj. 透明的；明显的；公开的",
+    "frequency": 2,
+    "page": 30,
+    "id": "transparent"
+  },
+  {
+    "word": "treaty",
+    "meaning": "n. 条约，协定",
+    "frequency": 1,
+    "page": 31,
+    "id": "treaty"
+  },
+  {
+    "word": "trigger",
+    "meaning": "n. 起因，诱因；触发器；扳机 v. 引起，触发",
+    "frequency": 8,
+    "page": 31,
+    "id": "trigger"
+  },
+  {
+    "word": "triumph",
+    "meaning": "n. 成功，胜利；胜利的喜悦；典范 v. 战胜，成功",
+    "frequency": 7,
+    "page": 31,
+    "id": "triumph"
+  },
+  {
+    "word": "trivial",
+    "meaning": "adj. 琐碎的，无价值的，不重要的",
+    "frequency": 4,
+    "page": 31,
+    "id": "trivial"
+  },
+  {
+    "word": "unanimous",
+    "meaning": "adj. 一致通过的；意见一致的",
+    "frequency": 1,
+    "page": 31,
+    "id": "unanimous"
+  },
+  {
+    "word": "uncharted",
+    "meaning": "adj. 人迹罕至的，无人涉足的，陌生的，地图上未绘出（或未标明）的",
+    "frequency": null,
+    "page": 31,
+    "id": "uncharted"
+  },
+  {
+    "word": "underestimate",
+    "meaning": "v. 低估，轻视 n. 低估，轻视",
+    "frequency": 9,
+    "page": 31,
+    "id": "underestimate"
+  },
+  {
+    "word": "undergraduate",
+    "meaning": "adj. 大学本科生的 n. 在校本科生，大学生",
+    "frequency": 15,
+    "page": 31,
+    "id": "undergraduate"
+  },
+  {
+    "word": "undermine",
+    "meaning": "v. 暗中破坏；逐渐削弱",
+    "frequency": 10,
+    "page": 31,
+    "id": "undermine"
+  },
+  {
+    "word": "unpredictable",
+    "meaning": "adj. 无法预言的，不可预测的，难以预料的，（人）善变的",
+    "frequency": null,
+    "page": 31,
+    "id": "unpredictable"
+  },
+  {
+    "word": "vague",
+    "meaning": "adj. 模糊的，不明确的；粗略的",
+    "frequency": 4,
+    "page": 32,
+    "id": "vague"
+  },
+  {
+    "word": "vanity",
+    "meaning": "n. 虚荣心，自大；渺小",
+    "frequency": 1,
+    "page": 32,
+    "id": "vanity"
+  },
+  {
+    "word": "variable",
+    "meaning": "adj. 易变的，多变的；可更改的，可变的 n. 变量，可变因素",
+    "frequency": 4,
+    "page": 31,
+    "id": "variable"
+  },
+  {
+    "word": "vast",
+    "meaning": "adj. 巨大的，广阔的，庞大的",
+    "frequency": 14,
+    "page": 32,
+    "id": "vast"
+  },
+  {
+    "word": "venture",
+    "meaning": "v. 冒险去；小心地说（或做） n. 冒险；风险投资；风险项目；企业",
+    "frequency": 4,
+    "page": 32,
+    "id": "venture"
+  },
+  {
+    "word": "verdict",
+    "meaning": "n. 裁决，判决；意见",
+    "frequency": 3,
+    "page": 32,
+    "id": "verdict"
+  },
+  {
+    "word": "verify",
+    "meaning": "v. 核实，证明",
+    "frequency": 4,
+    "page": 32,
+    "id": "verify"
+  },
+  {
+    "word": "vessel",
+    "meaning": "n. 船，舰；容器；血管",
+    "frequency": 4,
+    "page": 32,
+    "id": "vessel"
+  },
+  {
+    "word": "veto",
+    "meaning": "v. 否决；禁止 n. 否决权",
+    "frequency": 2,
+    "page": 32,
+    "id": "veto"
+  },
+  {
+    "word": "via",
+    "meaning": "prep. 经由，经过；通过，借助于",
+    "frequency": 9,
+    "page": 32,
+    "id": "via"
+  },
+  {
+    "word": "viable",
+    "meaning": "adj. 可行的，可实施的；可存活的",
+    "frequency": 4,
+    "page": 31,
+    "id": "viable"
+  },
+  {
+    "word": "vicious",
+    "meaning": "adj. 残酷的；凶猛的；恶毒的；恶性的",
+    "frequency": 2,
+    "page": 32,
+    "id": "vicious"
+  },
+  {
+    "word": "victim",
+    "meaning": "n. 受害者，遭难者",
+    "frequency": 8,
+    "page": 32,
+    "id": "victim"
+  },
+  {
+    "word": "violate",
+    "meaning": "v. 违反；侵犯；亵渎",
+    "frequency": 7,
+    "page": 32,
+    "id": "violate"
+  },
+  {
+    "word": "virtue",
+    "meaning": "n. 德行，美德；优点",
+    "frequency": 10,
+    "page": 32,
+    "id": "virtue"
+  },
+  {
+    "word": "vital",
+    "meaning": "adj. 至关重要的；维持生命必须的；生气勃勃的，充满生机的",
+    "frequency": 13,
+    "page": 32,
+    "id": "vital"
+  },
+  {
+    "word": "vocabulary",
+    "meaning": "n. 词汇；词汇量；词汇表",
+    "frequency": 7,
+    "page": 32,
+    "id": "vocabulary"
+  },
+  {
+    "word": "volatile",
+    "meaning": "adj. 易变的，不稳定的；易挥发的",
+    "frequency": 3,
+    "page": 32,
+    "id": "volatile"
+  },
+  {
+    "word": "voyage",
+    "meaning": "n. 航行，航海，航天 v. 航行，远航",
+    "frequency": 1,
+    "page": 32,
+    "id": "voyage"
+  },
+  {
+    "word": "vulnerable",
+    "meaning": "adj. 易受伤害的，脆弱的",
+    "frequency": 11,
+    "page": 32,
+    "id": "vulnerable"
+  },
+  {
+    "word": "warrant",
+    "meaning": "v. 使有必要；使正当；允诺，保证 n. 授权令；正当理由",
+    "frequency": 4,
+    "page": 32,
+    "id": "warrant"
+  },
+  {
+    "word": "whereas",
+    "meaning": "conj. 然而，但是；鉴于",
+    "frequency": 9,
+    "page": 32,
+    "id": "whereas"
+  },
+  {
+    "word": "with regard to",
+    "meaning": "phrase. 关于，至于；就…而论，在…方面",
+    "frequency": null,
+    "page": 32,
+    "id": "with regard to"
+  },
+  {
+    "word": "witness",
+    "meaning": "n. 目击者；证人 v. 目击；见证；连署",
+    "frequency": 9,
+    "page": 32,
+    "id": "witness"
+  },
+  {
+    "word": "workout",
+    "meaning": "n. 体育锻炼",
+    "frequency": 3,
+    "page": 32,
+    "id": "workout"
+  },
+  {
+    "word": "wreck",
+    "meaning": "n. （船、车等的） 残骸；失事 v. 使失事；破坏，毁坏",
+    "frequency": 1,
+    "page": 32,
+    "id": "wreck"
+  },
+  {
+    "word": "yield",
+    "meaning": "v. 产生；出产；屈服，让步；放弃 n. 产出；产量；收益",
+    "frequency": 10,
+    "page": 33,
+    "id": "yield"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "english-words",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "description": "GitHub Pages vocabulary practice with Supabase sync"
+}
